@@ -1,0 +1,228 @@
+{
+  "field": "TAU",
+  "timestamp": "2026-08-17T18:19:57.038684Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "CSF total tau",
+    "Tau protein CSF",
+    "Total tau concentration",
+    "Neuronal damage marker"
+  ],
+  "expand_results": [
+    {
+      "term": "CSF total tau",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "19075-1",
+          "display": "Cells Counted Total [#] in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "30160-6",
+          "display": "Tau protein [Mass/volume] in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP287190-5",
+          "display": "Tau protein/Protein.total",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "58463-1",
+          "display": "Tau protein/Protein.total in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "2979-3",
+          "display": "Taurine [Mass/volume] in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "26614-8",
+          "display": "Taurine [Moles/volume] in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "17679-2",
+          "display": "Taurine [Presence] in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "74439-1",
+          "display": "GABA free and total panel - Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "101649-2",
+          "display": "Tau protein [Mass/volume] in Cerebral spinal fluid by Immunoassay",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "93786-2",
+          "display": "Varicella zoster virus Ab.IgM+total [Presence] in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 18
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "30160-6",
+        "display": "Tau protein [Mass/volume] in Cerebral spinal fluid",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "30160-6",
+        "display": "Tau protein [Mass/volume] in Cerebral spinal fluid",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP384987-6"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "30160-6",
+      "display": "Tau protein [Mass/volume] in Cerebral spinal fluid",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "58463-1",
+        "display": "Tau protein/Protein.total in Cerebral spinal fluid",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "58463-1",
+        "display": "Tau protein/Protein.total in Cerebral spinal fluid",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP384987-6"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "58463-1",
+      "display": "Tau protein/Protein.total in Cerebral spinal fluid",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "2979-3",
+        "display": "Taurine [Mass/volume] in Cerebral spinal fluid",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "2979-3",
+        "display": "Taurine [Mass/volume] in Cerebral spinal fluid",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP384365-5"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "2979-3",
+      "display": "Taurine [Mass/volume] in Cerebral spinal fluid",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "26614-8",
+        "display": "Taurine [Moles/volume] in Cerebral spinal fluid",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "26614-8",
+        "display": "Taurine [Moles/volume] in Cerebral spinal fluid",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP384365-5"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "26614-8",
+      "display": "Taurine [Moles/volume] in Cerebral spinal fluid",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "17679-2",
+        "display": "Taurine [Presence] in Cerebral spinal fluid",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "17679-2",
+        "display": "Taurine [Presence] in Cerebral spinal fluid",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP384365-5"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "17679-2",
+      "display": "Taurine [Presence] in Cerebral spinal fluid",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "30160-6",
+        "display": "Tau protein [Mass/volume] in Cerebral spinal fluid",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Same biomarker (tau protein) and method (CSF measurement), but minor difference in display name.",
+        "perfect_fit": false
+      },
+      {
+        "code": "58463-1",
+        "display": "Tau protein/Protein.total in Cerebral spinal fluid",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Same biomarker (tau protein), but different display name and minor difference in method.",
+        "perfect_fit": false
+      },
+      {
+        "code": "2979-3",
+        "display": "Taurine [Mass/volume] in Cerebral spinal fluid",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "Different biomarker (taurine) and method (CSF measurement).",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "30160-6",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Same biomarker and method",
+        "Minor difference in display name"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Same biomarker and method",
+      "Minor difference in display name"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

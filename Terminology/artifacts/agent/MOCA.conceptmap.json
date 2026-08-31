@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-moca",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:22:46.771068Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "MOCA",
+          "target": [
+            {
+              "code": "66610-7",
+              "display": "Cognitive impairment [Reported]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

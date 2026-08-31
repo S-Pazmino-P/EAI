@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-midtemp",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:27:01.799125Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "MidTemp",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

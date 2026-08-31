@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ravlt_perc_forgetting",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:21:43.294176Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "RAVLT_perc_forgetting",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

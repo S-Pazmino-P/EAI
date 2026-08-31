@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ecogsporgan",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:25:20.147709Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "EcogSPOrgan",
+          "target": [
+            {
+              "code": "89293-5",
+              "display": "Executive functioning: organization panel [ECog.Partner]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

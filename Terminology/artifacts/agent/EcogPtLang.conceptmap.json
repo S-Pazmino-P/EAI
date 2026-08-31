@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ecogptlang",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:23:12.906609Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "EcogPtLang",
+          "target": [
+            {
+              "code": "89287-7",
+              "display": "Language panel [ECog]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-hippocampus",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:26:11.579296Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "Hippocampus",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

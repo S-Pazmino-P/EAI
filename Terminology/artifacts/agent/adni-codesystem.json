@@ -1,0 +1,156 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "adni-terms",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:27:40.420110Z"
+  },
+  "url": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+  "version": "1.0.0",
+  "name": "ADNI_Terms",
+  "title": "ADNI Terminology Codes",
+  "status": "active",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "ADAS11",
+      "display": "Cognitive assessment score - 11-item version"
+    },
+    {
+      "code": "AGE",
+      "display": "Participant age at visit"
+    },
+    {
+      "code": "APOE4",
+      "display": "APOE epsilon 4 allele count (genetic risk factor for AD)"
+    },
+    {
+      "code": "AV45",
+      "display": "Amyloid beta plaque deposition measured by Florbetapir PET"
+    },
+    {
+      "code": "COLPROT",
+      "display": "ADNI study phase of data collection"
+    },
+    {
+      "code": "DIGITSCOR",
+      "display": "Processing speed, attention, and executive function"
+    },
+    {
+      "code": "DX",
+      "display": "Clinical diagnosis classification"
+    },
+    {
+      "code": "EXAMDATE",
+      "display": "Date of examination"
+    },
+    {
+      "code": "Entorhinal",
+      "display": "Entorhinal cortical volume - early AD atrophy region"
+    },
+    {
+      "code": "FDG",
+      "display": "Brain glucose metabolism measured by FDG-PET"
+    },
+    {
+      "code": "FLDSTRENG",
+      "display": "MRI scanner field strength (Tesla)"
+    },
+    {
+      "code": "FSVERSION",
+      "display": "FreeSurfer software version"
+    },
+    {
+      "code": "Fusiform",
+      "display": "Fusiform gyrus volume"
+    },
+    {
+      "code": "Hippocampus",
+      "display": "Hippocampal volume - key AD atrophy marker"
+    },
+    {
+      "code": "ICV",
+      "display": "Total intracranial volume for normalization"
+    },
+    {
+      "code": "IMAGEUID",
+      "display": "Image database identifier"
+    },
+    {
+      "code": "MidTemp",
+      "display": "Middle temporal gyrus volume"
+    },
+    {
+      "code": "ORIGPROT",
+      "display": "Initial ADNI enrollment phase"
+    },
+    {
+      "code": "PTAU",
+      "display": "CSF phosphorylated tau at threonine 181 - AD-specific tau pathology"
+    },
+    {
+      "code": "PTEDUCAT",
+      "display": "Years of formal education"
+    },
+    {
+      "code": "PTETHCAT",
+      "display": "Ethnicity classification"
+    },
+    {
+      "code": "PTGENDER",
+      "display": "Biological sex"
+    },
+    {
+      "code": "PTID",
+      "display": "Original site-assigned participant identifier"
+    },
+    {
+      "code": "PTMARRY",
+      "display": "Marital status"
+    },
+    {
+      "code": "PTRACCAT",
+      "display": "Racial classification"
+    },
+    {
+      "code": "RAVLT_forgetting",
+      "display": "Retroactive interference - retention over delay"
+    },
+    {
+      "code": "RAVLT_learning",
+      "display": "Learning slope across repeated trials"
+    },
+    {
+      "code": "RAVLT_perc_forgetting",
+      "display": "Proportional forgetting rate"
+    },
+    {
+      "code": "RID",
+      "display": "Unique participant identifier"
+    },
+    {
+      "code": "SITE",
+      "display": "Clinical site number"
+    },
+    {
+      "code": "TRABSCOR",
+      "display": "Executive function and mental flexibility"
+    },
+    {
+      "code": "VISCODE",
+      "display": "Visit timepoint identifier"
+    },
+    {
+      "code": "Ventricles",
+      "display": "Cerebral ventricular volume"
+    },
+    {
+      "code": "WholeBrain",
+      "display": "Total brain volume"
+    },
+    {
+      "code": "mPACCtrailsB",
+      "display": "Preclinical AD cognitive composite score using Trail Making B"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "field": "FAQ",
+  "timestamp": "2026-08-17T18:22:33.833789Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "Instrumental Activities",
+    "Daily Living Assessment",
+    "Functional Capacity Questionnaire",
+    "Informant-Based Functional Assessment"
+  ],
+  "expand_results": [
+    {
+      "term": "Instrumental Activities",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP418634-4",
+          "display": "FASI v1.0 - Instrumental Activities of Daily Living",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP418635-1",
+          "display": "FASI v1.0 - Instrumental Activities of Daily Living - usual performance",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "95028-7",
+          "display": "FASI v1.0 - Instrumental Activities of Daily Living [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP418636-9",
+          "display": "FASI v1.0 - Instrumental Activities of Daily Living - most dependent performance",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP418306-9",
+          "display": "Instrumental activities of daily living priorities for the next 6Mo",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "95030-3",
+          "display": "FASI v1.0 - Instrumental Activities of Daily Living - most dependent performance [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP418349-9",
+          "display": "Paid caregiver's ability and willingness to provide instrumental activities of daily living assistance",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP418351-5",
+          "display": "Unpaid caregiver's ability and willingness to provide instrumental activities of daily living assistance",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "95029-5",
+          "display": "FASI v1.0 - Instrumental Activities of Daily Living - usual performance during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "94878-6",
+          "display": "Instrumental activities of daily living priorities for the next 6 months during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 12
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "95028-7",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "95028-7",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "95028-7",
+      "display": "FASI v1.0 - Instrumental Activities of Daily Living [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "95030-3",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living - most dependent performance [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "95030-3",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living - most dependent performance [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "95030-3",
+      "display": "FASI v1.0 - Instrumental Activities of Daily Living - most dependent performance [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "95029-5",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living - usual performance during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "95029-5",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living - usual performance during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "95029-5",
+      "display": "FASI v1.0 - Instrumental Activities of Daily Living - usual performance during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "94878-6",
+        "display": "Instrumental activities of daily living priorities for the next 6 months during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "94878-6",
+        "display": "Instrumental activities of daily living priorities for the next 6 months during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "94878-6",
+      "display": "Instrumental activities of daily living priorities for the next 6 months during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "82287-4",
+        "display": "Physical activity panel",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "82287-4",
+        "display": "Physical activity panel",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP428888-4"
+        }
+      },
+      "score": 0.7,
+      "code": "82287-4",
+      "display": "Physical activity panel",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "95028-7",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living [CMS Assessment]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Same general category, but minor differences in display name.",
+        "perfect_fit": false
+      },
+      {
+        "code": "95030-3",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living - most dependent performance [CMS Assessment]",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Same general category, but different display name and minor differences in wording.",
+        "perfect_fit": false
+      },
+      {
+        "code": "95029-5",
+        "display": "FASI v1.0 - Instrumental Activities of Daily Living - usual performance during assessment period [CMS Assessment]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Different display name and wording, but same general category.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "95028-7",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Same general category, but minor differences in display name."
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Same general category, but minor differences in display name."
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

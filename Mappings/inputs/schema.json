@@ -1,0 +1,406 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "RID": {
+      "type": "integer",
+      "description": "Participant roster ID"
+    },
+    "COLPROT": {
+      "type": "string",
+      "enum": [
+        "ADNI1",
+        "ADNI2",
+        "ADNI3",
+        "ADNIGO"
+      ],
+      "description": "Study protocol of data collection"
+    },
+    "ORIGPROT": {
+      "type": "string",
+      "enum": [
+        "ADNI1",
+        "ADNI2",
+        "ADNI3",
+        "ADNIGO"
+      ],
+      "description": "Original study protocol"
+    },
+    "PTID": {
+      "type": "string",
+      "description": "Original study protocol"
+    },
+    "SITE": {
+      "type": "integer",
+      "description": "Site"
+    },
+    "VISCODE": {
+      "type": "string",
+      "description": "Visit code"
+    },
+    "EXAMDATE": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date"
+    },
+    "AGE": {
+      "type": "number",
+      "description": "Age"
+    },
+    "PTGENDER": {
+      "type": "string",
+      "enum": [
+        "Female",
+        "Male"
+      ],
+      "description": "Sex"
+    },
+    "PTEDUCAT": {
+      "type": "integer",
+      "enum": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "description": "Education"
+    },
+    "PTETHCAT": {
+      "type": "string",
+      "enum": [
+        "Hisp/Latino",
+        "Not Hisp/Latino",
+        "Unknown"
+      ],
+      "description": "Ethnicity"
+    },
+    "PTRACCAT": {
+      "type": "string",
+      "enum": [
+        "Am Indian/Alaskan",
+        "Asian",
+        "Black",
+        "Hawaiian/Other PI",
+        "More than one",
+        "Unknown",
+        "White"
+      ],
+      "description": "Race"
+    },
+    "PTMARRY": {
+      "type": "string",
+      "enum": [
+        "Divorced",
+        "Married",
+        "Never married",
+        "Unknown",
+        "Widowed"
+      ],
+      "description": "Marital"
+    },
+    "APOE4": {
+      "type": "integer",
+      "enum": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "description": "ApoE4"
+    },
+    "FDG": {
+      "type": "number",
+      "description": "Average FDG-PET of angular, temporal, and posterior cingulate"
+    },
+    "PIB": {
+      "type": "number",
+      "description": "Average PIB SUVR of frontal cortex, anterior cingulate, precuneus cortex, and parietal cortex"
+    },
+    "AV45": {
+      "type": "number",
+      "description": "Reference region - florbetapir mean of whole cerebellum.  Regions defined by Freesurfer; see Jagust lab PDF on LONI for details"
+    },
+    "FBB": {
+      "type": "number"
+    },
+    "ABETA": {
+      "type": "string",
+      "description": "CSF ABETA"
+    },
+    "TAU": {
+      "type": "string",
+      "description": "CSF TAU"
+    },
+    "PTAU": {
+      "type": "string",
+      "description": "CSF PTAU"
+    },
+    "CDRSB": {
+      "type": "number",
+      "description": "CDR-SB"
+    },
+    "ADAS11": {
+      "type": "string",
+      "description": "ADAS 11"
+    },
+    "ADAS13": {
+      "type": "number",
+      "description": "ADAS 13"
+    },
+    "ADASQ4": {
+      "type": "integer",
+      "enum": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ],
+      "description": "ADAS Delayed Word Recall"
+    },
+    "MMSE": {
+      "type": "integer",
+      "description": "MMSE"
+    },
+    "RAVLT_immediate": {
+      "type": "integer",
+      "description": "RAVLT Immediate (sum of 5 trials)"
+    },
+    "RAVLT_learning": {
+      "type": "integer",
+      "enum": [
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0
+      ],
+      "description": "RAVLT Learning (trial 5 - trial 1)"
+    },
+    "RAVLT_forgetting": {
+      "type": "integer",
+      "description": "RAVLT Forgetting (trial 5 - delayed)"
+    },
+    "RAVLT_perc_forgetting": {
+      "type": "number",
+      "description": "RAVLT Percent Forgetting"
+    },
+    "LDELTOTAL": {
+      "type": "integer",
+      "description": "Logical Memory - Delayed Recall"
+    },
+    "DIGITSCOR": {
+      "type": "integer",
+      "description": "Digit Symbol Substitution"
+    },
+    "TRABSCOR": {
+      "type": "number",
+      "description": "Trails B"
+    },
+    "FAQ": {
+      "type": "integer",
+      "description": "FAQ"
+    },
+    "MOCA": {
+      "type": "integer",
+      "description": "MOCA"
+    },
+    "EcogPtMem": {
+      "type": "number",
+      "description": "Pt ECog - Mem"
+    },
+    "EcogPtLang": {
+      "type": "number",
+      "description": "Pt ECog - Lang"
+    },
+    "EcogPtVisspat": {
+      "type": "number",
+      "description": "Pt ECog - Vis/Spat"
+    },
+    "EcogPtPlan": {
+      "type": "number",
+      "description": "Pt ECog - Plan"
+    },
+    "EcogPtOrgan": {
+      "type": "number",
+      "description": "Pt ECog - Organ"
+    },
+    "EcogPtDivatt": {
+      "type": "number",
+      "enum": [
+        1.0,
+        1.25,
+        1.33333,
+        1.5,
+        1.66667,
+        1.75,
+        2.0,
+        2.25,
+        2.33333,
+        2.5,
+        2.66667,
+        2.75,
+        3.0,
+        3.25,
+        3.33333,
+        3.5,
+        3.66667,
+        3.75,
+        4.0
+      ],
+      "description": "Pt ECog - Div atten"
+    },
+    "EcogPtTotal": {
+      "type": "number",
+      "description": "Pt ECog - Total"
+    },
+    "EcogSPMem": {
+      "type": "number",
+      "description": "SP ECog - Mem"
+    },
+    "EcogSPLang": {
+      "type": "number",
+      "description": "SP ECog - Lang"
+    },
+    "EcogSPVisspat": {
+      "type": "number",
+      "description": "SP ECog - Vis/Spat"
+    },
+    "EcogSPPlan": {
+      "type": "number",
+      "description": "SP ECog - Plan"
+    },
+    "EcogSPOrgan": {
+      "type": "number",
+      "description": "SP ECog - Organ"
+    },
+    "EcogSPDivatt": {
+      "type": "number",
+      "enum": [
+        1.0,
+        1.25,
+        1.33333,
+        1.5,
+        1.66667,
+        1.75,
+        2.0,
+        2.25,
+        2.33333,
+        2.5,
+        2.66667,
+        2.75,
+        3.0,
+        3.25,
+        3.33333,
+        3.5,
+        3.66667,
+        3.75,
+        4.0
+      ],
+      "description": "SP ECog - Div atten"
+    },
+    "EcogSPTotal": {
+      "type": "number",
+      "description": "SP ECog - Total"
+    },
+    "FLDSTRENG": {
+      "type": "string",
+      "enum": [
+        "1.5 Tesla MRI",
+        "3 Tesla MRI"
+      ],
+      "description": "MRI Field Strength"
+    },
+    "FSVERSION": {
+      "type": "string",
+      "enum": [
+        "Cross-Sectional FreeSurfer (5.1)",
+        "Cross-Sectional FreeSurfer (6.0)",
+        "Cross-Sectional FreeSurfer (FreeSurfer Version 4.3)"
+      ],
+      "description": "FreeSurfer Software Version"
+    },
+    "IMAGEUID": {
+      "type": "integer"
+    },
+    "Ventricles": {
+      "type": "number",
+      "description": "UCSF Ventricles"
+    },
+    "Hippocampus": {
+      "type": "number",
+      "description": "UCSF Hippocampus"
+    },
+    "WholeBrain": {
+      "type": "integer",
+      "description": "UCSF WholeBrain"
+    },
+    "Entorhinal": {
+      "type": "integer",
+      "description": "UCSF Entorhinal"
+    },
+    "Fusiform": {
+      "type": "integer",
+      "description": "UCSF Fusiform"
+    },
+    "MidTemp": {
+      "type": "integer",
+      "description": "UCSF Med Temp"
+    },
+    "ICV": {
+      "type": "integer",
+      "description": "UCSF ICV"
+    },
+    "DX": {
+      "type": "string",
+      "enum": [
+        "AD",
+        "CN",
+        "EMCI",
+        "LMCI",
+        "SMC"
+      ],
+      "description": "Diagnosis"
+    },
+    "mPACCdigit": {
+      "type": "number",
+      "description": "ADNI modified Preclinical Alzheimer's Cognitive Composite (PACC) with Digit Symbol Substitution"
+    },
+    "mPACCtrailsB": {
+      "type": "number",
+      "description": "ADNI modified Preclinical Alzheimer's Cognitive Composite (PACC) with Trails B"
+    }    
+  }
+}

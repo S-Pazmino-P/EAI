@@ -1,0 +1,226 @@
+{
+  "field": "ABETA",
+  "timestamp": "2026-08-17T18:19:43.181319Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "Amyloid Beta 1-42",
+    "CSF A\u03b21-42 Concentration",
+    "A\u03b21-42 CSF Protein",
+    "Cerebrospinal Fluid Amyloid"
+  ],
+  "expand_results": [
+    {
+      "term": "Amyloid Beta 1-42",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP441700-4",
+          "display": "Beta-Amyloid 1-42 and 1-40 panel",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP427298-7",
+          "display": "Tau protein.phosphorylated 181/Amyloid beta 42 peptide",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP30823-6",
+          "display": "Amyloid beta 42 peptide",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "97102-8",
+          "display": "Phosphorylated tau 181/Amyloid beta 42 peptide [Ratio] in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "106057-3",
+          "display": "Beta-Amyloid 1-42 and 1-40 panel - Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP287189-7",
+          "display": "Tau protein/Amyloid beta 42 peptide",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP443165-8",
+          "display": "Beta-Amyloid 1-42 and 1-40 panel | Cerebral spinal fluid | Serology - non-micro",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "33200-7",
+          "display": "Amyloid beta 42 peptide [Mass/volume] in Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP427756-4",
+          "display": "Tau protein.phosphorylated 181/Amyloid beta 42 peptide | Cerebral spinal fluid | Chemistry - non-challenge",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "33203-1",
+          "display": "Amyloid beta 42 peptide [Mass/volume] in Cerebral spinal fluid",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 13
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "97102-8",
+        "display": "Phosphorylated tau 181/Amyloid beta 42 peptide [Ratio] in Cerebral spinal fluid",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "97102-8",
+        "display": "Phosphorylated tau 181/Amyloid beta 42 peptide [Ratio] in Cerebral spinal fluid",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP384989-2"
+        }
+      },
+      "score": 0.7,
+      "code": "97102-8",
+      "display": "Phosphorylated tau 181/Amyloid beta 42 peptide [Ratio] in Cerebral spinal fluid",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "106057-3",
+        "display": "Beta-Amyloid 1-42 and 1-40 panel - Cerebral spinal fluid",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "106057-3",
+        "display": "Beta-Amyloid 1-42 and 1-40 panel - Cerebral spinal fluid",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP443165-8"
+        }
+      },
+      "score": 0.7,
+      "code": "106057-3",
+      "display": "Beta-Amyloid 1-42 and 1-40 panel - Cerebral spinal fluid",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "33200-7",
+        "display": "Amyloid beta 42 peptide [Mass/volume] in Plasma",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "33200-7",
+        "display": "Amyloid beta 42 peptide [Mass/volume] in Plasma",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP384533-8"
+        }
+      },
+      "score": 0.7,
+      "code": "33200-7",
+      "display": "Amyloid beta 42 peptide [Mass/volume] in Plasma",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "33203-1",
+        "display": "Amyloid beta 42 peptide [Mass/volume] in Cerebral spinal fluid",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "33203-1",
+        "display": "Amyloid beta 42 peptide [Mass/volume] in Cerebral spinal fluid",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP384532-0"
+        }
+      },
+      "score": 0.7,
+      "code": "33203-1",
+      "display": "Amyloid beta 42 peptide [Mass/volume] in Cerebral spinal fluid",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "77347-3",
+        "display": "Beta-2 transferrin panel - Serum or Plasma and CSF",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "77347-3",
+        "display": "Beta-2 transferrin panel - Serum or Plasma and CSF",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP386825-6"
+        }
+      },
+      "score": 0.7,
+      "code": "77347-3",
+      "display": "Beta-2 transferrin panel - Serum or Plasma and CSF",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "97102-8",
+        "display": "Phosphorylated tau 181/Amyloid beta 42 peptide [Ratio] in Cerebral spinal fluid",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": false,
+        "rationale": "Same biomarker, but different method (ratio vs concentration)",
+        "perfect_fit": false
+      },
+      {
+        "code": "106057-3",
+        "display": "Beta-Amyloid 1-42 and 1-40 panel - Cerebral spinal fluid",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Same biomarker, same method (CSF), but a full panel/code",
+        "perfect_fit": false
+      },
+      {
+        "code": "33200-7",
+        "display": "Amyloid beta 42 peptide [Mass/volume] in Plasma",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Different method (plasma vs CSF), and different unit (mass/volume)",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "106057-3",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Same biomarker, same method (CSF)"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Same biomarker, same method (CSF)"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

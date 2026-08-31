@@ -1,0 +1,956 @@
+[
+  ($.APOE4 != null and $string($.APOE4) != "") ? [
+    {"resourceType": "Observation",
+     "identifier": [
+       {
+         "system": "http://adni.example.org/fhir/identifier/observation",
+         "value": $string($.PTID) & "-" & $.VISCODE & "-APOE4"
+       }
+     ],
+     "code": {"coding": [{"system": "http://snomed.info/sct", "code": "1396588002"}],
+              "text": "APOE4"},
+     "subject": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+         "type": { "text": "PTID" },
+         "value": $.PTID
+       }
+     },
+     "encounter": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/identifier/encounter",
+         "value": $.PTID & "-" & $.VISCODE
+       }
+     },
+     "effectiveDateTime": $.EXAMDATE,
+     "valueQuantity": {"value": $number($.APOE4)}}
+  ] : [],
+  
+  ($.FDG != null and $string($.FDG) != "") ? [
+    {"resourceType": "Observation",
+     "identifier": [
+       {
+         "system": "http://adni.example.org/fhir/identifier/observation",
+         "value": $string($.PTID) & "-" & $.VISCODE & "-FDG"
+       }
+     ],
+     "code": {"coding": [{"system": "http://loinc.org", "code": "86976-8"}],
+              "text": "FDG"},
+     "subject": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+         "type": { "text": "PTID" },
+         "value": $.PTID
+       }
+     },
+     "encounter": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/identifier/encounter",
+         "value": $.PTID & "-" & $.VISCODE
+       }
+     },
+     "effectiveDateTime": $.EXAMDATE,
+     "valueQuantity": {"value": $number($.FDG)}}
+  ] : [],
+  
+  ($.PIB != null and $string($.PIB) != "") ? [
+    {"resourceType": "Observation",
+     "identifier": [
+       {
+         "system": "http://adni.example.org/fhir/identifier/observation",
+         "value": $string($.PTID) & "-" & $.VISCODE & "-PIB"
+       }
+     ],
+     "code": {"coding": [{"system": "http://loinc.org", "code": "87907-2"},
+                        {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+                         "code": "PIB-SUVR-mean"}],
+              "text": "PIB"},
+     "subject": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+         "type": { "text": "PTID" },
+         "value": $.PTID
+       }
+     },
+     "encounter": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/identifier/encounter",
+         "value": $.PTID & "-" & $.VISCODE
+       }
+     },
+     "effectiveDateTime": $.EXAMDATE,
+     "valueQuantity": {"value": $number($.PIB)}}
+  ] : [],
+  
+  ($.AV45 != null and $string($.AV45) != "") ? [
+    {"resourceType": "Observation",
+     "identifier": [
+       {
+         "system": "http://adni.example.org/fhir/identifier/observation",
+         "value": $string($.PTID) & "-" & $.VISCODE & "-AV45"
+       }
+     ],
+     "code": {"coding": [{"system": "http://loinc.org", "code": "87907-2"},
+                        {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+                         "code": "AV45-SUVR-mean"}],
+              "text": "AV45"},
+     "subject": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+         "type": { "text": "PTID" },
+         "value": $.PTID
+       }
+     },
+     "encounter": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/identifier/encounter",
+         "value": $.PTID & "-" & $.VISCODE
+       }
+     },
+     "effectiveDateTime": $.EXAMDATE,
+     "valueQuantity": {"value": $number($.AV45)}}
+  ] : [],
+  
+  ($.FBB != null and $string($.FBB) != "") ? [
+    {"resourceType": "Observation",
+     "identifier": [
+       {
+         "system": "http://adni.example.org/fhir/identifier/observation",
+         "value": $string($.PTID) & "-" & $.VISCODE & "-FBB"
+       }
+     ],
+     "code": {"coding": [{"system": "http://loinc.org", "code": "87907-2"},
+                        {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+                         "code": "FBB-SUVR-mean"}],
+              "text": "FBB"},
+     "subject": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+         "type": { "text": "PTID" },
+         "value": $.PTID
+       }
+     },
+     "encounter": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/identifier/encounter",
+         "value": $.PTID & "-" & $.VISCODE
+       }
+     },
+     "effectiveDateTime": $.EXAMDATE,
+     "valueQuantity": {"value": $number($.FBB)}}
+  ] : [],
+  
+  ($.CDRSB != null and $string($.CDRSB) != "") ? [
+    {"resourceType": "Observation",
+     "identifier": [
+       {
+         "system": "http://adni.example.org/fhir/identifier/observation",
+         "value": $string($.PTID) & "-" & $.VISCODE & "-CDRSB"
+       }
+     ],
+     "code": {"coding": [{"system": "http://loinc.org", "code": "72165-1"}],
+              "text": "CDRSB"},
+     "subject": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+         "type": { "text": "PTID" },
+         "value": $.PTID
+       }
+     },
+     "encounter": {
+       "identifier": {
+         "system": "http://adni.example.org/fhir/identifier/encounter",
+         "value": $.PTID & "-" & $.VISCODE
+       }
+     },
+     "effectiveDateTime": $.EXAMDATE,
+     "valueQuantity": {"value": $number($.CDRSB)}}
+  ] : [],
+  ($.MMSE != null and $string($.MMSE) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-MMSE"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "72107-6"}], "text": "MMSE" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.MMSE)}
+    }
+  ] : [],
+  
+  ($.MOCA != null and $string($.MOCA) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-MOCA"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "72133-2"}], "text": "MOCA" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.MOCA)}
+    }
+  ] : [],
+  
+  ($.FAQ != null and $string($.FAQ) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-FAQ"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "72198-2"}], "text": "FAQ" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.FAQ)}
+    }
+  ] : [],
+  
+  ($.ADAS13 != null and $string($.ADAS13) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-ADAS13"
+        }
+      ],
+      "code": { "coding": [{"system": "http://snomed.info/sct", "code": "714360001"}], "text": "ADAS13" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.ADAS13)}
+    }
+  ] : [],
+  
+  ($.ADASQ4 != null and $string($.ADASQ4) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-ADASQ4"
+        }
+      ],
+      "code": { "coding": [{"system": "http://snomed.info/sct", "code": "714360001"}], "text": "ADASQ4" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.ADASQ4)}
+    }
+  ] : [],
+  
+  ($.RAVLT_immediate != null and $string($.RAVLT_immediate) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-RAVLT_immediate"
+        }
+      ],
+      "code": { "coding": [{"system": "http://snomed.info/sct", "code": "311478003"}], "text": "RAVLT_immediate" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.RAVLT_immediate)}
+    }
+  ] : [],
+  
+  ($.RAVLT_learning != null and $string($.RAVLT_learning) != "") ? {
+    "resourceType": "Observation",
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/identifier/observation",
+        "value": $string($.PTID) & "-" & $.VISCODE & "-RAVLT_learning"
+      }
+    ],
+    "code": { "coding": [{"system": "http://snomed.info/sct", "code": "311478003"}], "text": "RAVLT_learning" },
+    "subject": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+        "type": { "text": "PTID" },
+        "value": $.PTID
+      }
+    },
+    "encounter": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/identifier/encounter",
+        "value": $.PTID & "-" & $.VISCODE
+      }
+    },
+    "effectiveDateTime": $.EXAMDATE,
+    "valueQuantity": {"value": $number($.RAVLT_learning)}
+  } : [],
+  
+  ($.RAVLT_forgetting != null and $string($.RAVLT_forgetting) != "") ? {
+    "resourceType": "Observation",
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/identifier/observation",
+        "value": $string($.PTID) & "-" & $.VISCODE & "-RAVLT_forgetting"
+      }
+    ],
+    "code": { "coding": [{"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "RAVLT-forgetting"}], "text": "RAVLT_forgetting" },
+    "subject": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+        "type": { "text": "PTID" },
+        "value": $.PTID
+      }
+    },
+    "encounter": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/identifier/encounter",
+        "value": $.PTID & "-" & $.VISCODE
+      }
+    },
+    "effectiveDateTime": $.EXAMDATE,
+    "valueQuantity": {"value": $number($.RAVLT_forgetting)}
+  } : [],
+  
+  ($.RAVLT_perc_forgetting != null and $string($.RAVLT_perc_forgetting) != "") ? {
+    "resourceType": "Observation",
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/identifier/observation",
+        "value": $string($.PTID) & "-" & $.VISCODE & "-RAVLT_perc_forgetting"
+      }
+    ],
+    "code": { "coding": [{"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "RAVLT-perc-forgetting"}], "text": "RAVLT_perc_forgetting" },
+    "subject": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+        "type": { "text": "PTID" },
+        "value": $.PTID
+      }
+    },
+    "encounter": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/identifier/encounter",
+        "value": $.PTID & "-" & $.VISCODE
+      }
+    },
+    "effectiveDateTime": $.EXAMDATE,
+    "valueQuantity": {"value": $number($.RAVLT_perc_forgetting)}
+  } : [],
+  
+  ($.LDELTOTAL != null and $string($.LDELTOTAL) != "") ? {
+    "resourceType": "Observation",
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/identifier/observation",
+        "value": $string($.PTID) & "-" & $.VISCODE & "-LDELTOTAL"
+      }
+    ],
+    "code": { "coding": [{"system": "http://snomed.info/sct", "code": "273921009"}], "text": "LDELTOTAL" },
+    "subject": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+        "type": { "text": "PTID" },
+        "value": $.PTID
+      }
+    },
+    "encounter": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/identifier/encounter",
+        "value": $.PTID & "-" & $.VISCODE
+      }
+    },
+    "effectiveDateTime": $.EXAMDATE,
+    "valueQuantity": {"value": $number($.LDELTOTAL)}
+  } : [],
+  
+  ($.DIGITSCOR != null and $string($.DIGITSCOR) != "") ? {
+    "resourceType": "Observation",
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/identifier/observation",
+        "value": $string($.PTID) & "-" & $.VISCODE & "-DIGITSCOR"
+      }
+    ],
+    "code": { "coding": [{"system": "http://snomed.info/sct", "code": "273857000"}], "text": "DIGITSCOR" },
+    "subject": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+        "type": { "text": "PTID" },
+        "value": $.PTID
+      }
+    },
+    "encounter": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/identifier/encounter",
+        "value": $.PTID & "-" & $.VISCODE
+      }
+    },
+    "effectiveDateTime": $.EXAMDATE,
+    "valueQuantity": {"value": $number($.DIGITSCOR)}
+  } : [],
+  
+  ($.TRABSCOR != null and $string($.TRABSCOR) != "") ? {
+    "resourceType": "Observation",
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/identifier/observation",
+        "value": $string($.PTID) & "-" & $.VISCODE & "-TRABSCOR"
+      }
+    ],
+    "code": { "coding": [{"system": "http://snomed.info/sct", "code": "273882000"}], "text": "TRABSCOR" },
+    "subject": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+        "type": { "text": "PTID" },
+        "value": $.PTID
+      }
+    },
+    "encounter": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/identifier/encounter",
+        "value": $.PTID & "-" & $.VISCODE
+      }
+    },
+    "effectiveDateTime": $.EXAMDATE,
+    "valueQuantity": {"value": $number($.TRABSCOR)}
+  } : [],
+  
+  ($.mPACCdigit != null and $string($.mPACCdigit) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-mPACCdigit"
+        }
+      ],
+      "code": { "coding": [ {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "mPACCdigit" } ], "text": "mPACCdigit" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.mPACCdigit)}
+    } : [],
+  ($.mPACCtrailsB != null and $string($.mPACCtrailsB) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-mPACCtrailsB"
+        }
+      ],
+      "code": { "coding": [ {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "mPACCtrailsB" } ], "text": "mPACCtrailsB" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.mPACCtrailsB)}
+    } : [],
+  ($.EcogPtMem != null and $string($.EcogPtMem) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogPtMem"
+        }
+      ],
+      "code": { "coding": [ {"system": "http://loinc.org", "code": "89133-3" } ], "text": "EcogPtMem" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogPtMem)}
+    } : [],
+  ($.EcogPtLang != null and $string($.EcogPtLang) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogPtLang"
+        }
+      ],
+      "code": { "coding": [ {"system": "http://loinc.org", "code": "89133-3" } ], "text": "EcogPtLang" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogPtLang)}
+    } : [],
+  ($.EcogPtVisspat != null and $string($.EcogPtVisspat) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogPtVisspat"
+        }
+      ],
+      "code": { "coding": [ {"system": "http://loinc.org", "code": "89133-3" } ], "text": "EcogPtVisspat" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogPtVisspat)}
+    } : [],
+  ($.EcogPtPlan != null and $string($.EcogPtPlan) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogPtPlan"
+        }
+      ],
+      "code": { "coding": [ {"system": "http://loinc.org", "code": "89133-3" } ], "text": "EcogPtPlan" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogPtPlan)}
+    } : [],
+    
+  ($.EcogPtOrgan != null and $string($.EcogPtOrgan) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogPtOrgan"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89133-3"}], "text": "EcogPtOrgan" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogPtOrgan)}
+    }
+  ] : [],
+  
+  ($.EcogPtDivatt != null and $string($.EcogPtDivatt) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogPtDivatt"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89133-3"}], "text": "EcogPtDivatt" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogPtDivatt)}
+    }
+  ] : [],
+  
+  ($.EcogPtTotal != null and $string($.EcogPtTotal) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogPtTotal"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89133-3"}], "text": "EcogPtTotal" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogPtTotal)}
+    }
+  ] : [],
+  
+  ($.EcogSPMem != null and $string($.EcogSPMem) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogSPMem"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89090-5"}], "text": "EcogSPMem" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogSPMem)}
+    }
+  ] : [],
+  
+  ($.EcogSPLang != null and $string($.EcogSPLang) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogSPLang"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89090-5"}], "text": "EcogSPLang" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogSPLang)}
+    }
+  ] : [],
+  
+  ($.EcogSPVisspat != null and $string($.EcogSPVisspat) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogSPVisspat"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89090-5"}], "text": "EcogSPVisspat" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogSPVisspat)}
+    }
+  ] : [],
+  
+  ($.EcogSPPlan != null and $string($.EcogSPPlan) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogSPPlan"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89090-5"}], "text": "EcogSPPlan" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogSPPlan)}
+    }
+  ] : [],
+  
+  ($.EcogSPOrgan != null and $string($.EcogSPOrgan) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogSPOrgan"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89090-5"}], "text": "EcogSPOrgan" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogSPOrgan)}
+    }
+  ] : [],
+  
+  ($.EcogSPDivatt != null and $string($.EcogSPDivatt) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogSPDivatt"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89090-5"}], "text": "EcogSPDivatt" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogSPDivatt)}
+    }
+  ] : [],
+  
+  ($.EcogSPTotal != null and $string($.EcogSPTotal) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/identifier/observation",
+          "value": $string($.PTID) & "-" & $.VISCODE & "-EcogSPTotal"
+        }
+      ],
+      "code": { "coding": [{"system": "http://loinc.org", "code": "89090-5"}], "text": "EcogSPTotal" },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.EcogSPTotal)}
+    }
+  ] : [],
+  
+  ($.ABETA != null and $string($.ABETA) != "") ? [{
+    "resourceType": "Observation",
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/identifier/observation",
+        "value": $string($.PTID) & "-" & $.VISCODE & "-ABETA"
+      }
+    ],
+    "code": { "coding": [{"system": "http://loinc.org", "code": "79058-4"}], "text": "ABETA" },
+    "valueQuantity": { "value": $number($replace($string($.ABETA), /^(<=|>=|<|>)\s*/, "")) },
+    "subject": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+        "type": { "text": "PTID" },
+        "value": $.PTID
+      }
+    },
+    "encounter": {
+      "identifier": {
+        "system": "http://adni.example.org/fhir/identifier/encounter",
+        "value": $.PTID & "-" & $.VISCODE
+      }
+    },
+    "effectiveDateTime": $.EXAMDATE
+  }] : []
+
+]

@@ -1,0 +1,236 @@
+{
+  "field": "CDRSB",
+  "timestamp": "2026-08-17T18:20:10.778747Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 1.0,
+  "reason": "Perfect semantic fit identified by LLM",
+  "search_terms": [
+    "CDR Sum of Boxes",
+    "Clinical Dementia Rating Score",
+    "Dementia Severity Measure CDR",
+    "Global Dementia Assessment Score"
+  ],
+  "expand_results": [
+    {
+      "term": "CDR Sum of Boxes",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Clinical Dementia Rating Score",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP156418-8",
+          "display": "Clinical dementia rating scale",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "72088-8",
+          "display": "Clinical Dementia Rating scale [CDR]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP157093-8",
+          "display": "Clinical summary score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "72188-6",
+          "display": "Clinical summary score [KCCQ]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "82289-0",
+          "display": "Rating of perceived exertion [Score]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP428900-7",
+          "display": "Duke Treadmill Score panel | Patient | Clinical Risk Panel",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP428912-2",
+          "display": "Revised Geneva Score panel | Patient | Clinical Risk Panel",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP428901-5",
+          "display": "Finnish diabetes risk score panel | Patient | Clinical Risk Panel",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "72514-3",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "95607-8",
+          "display": "Sleep quality - 1-5 numeric rating [Score] 24 hour",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 14
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "72088-8",
+        "display": "Clinical Dementia Rating scale [CDR]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "72088-8",
+        "display": "Clinical Dementia Rating scale [CDR]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "72088-8",
+      "display": "Clinical Dementia Rating scale [CDR]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "72188-6",
+        "display": "Clinical summary score [KCCQ]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "72188-6",
+        "display": "Clinical summary score [KCCQ]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "72188-6",
+      "display": "Clinical summary score [KCCQ]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "82289-0",
+        "display": "Rating of perceived exertion [Score]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "82289-0",
+        "display": "Rating of perceived exertion [Score]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "82289-0",
+      "display": "Rating of perceived exertion [Score]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "72514-3",
+        "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "72514-3",
+        "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "72514-3",
+      "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "95607-8",
+        "display": "Sleep quality - 1-5 numeric rating [Score] 24 hour",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "95607-8",
+        "display": "Sleep quality - 1-5 numeric rating [Score] 24 hour",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "95607-8",
+      "display": "Sleep quality - 1-5 numeric rating [Score] 24 hour",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "72088-8",
+        "display": "Clinical Dementia Rating scale [CDR]",
+        "score": 1.0,
+        "semantic_match": "EXACT",
+        "method_compatible": true,
+        "rationale": "The LOINC code measures the exact same thing as the ADNI field, with a focus on dementia severity score from CDR assessment.",
+        "perfect_fit": true
+      },
+      {
+        "code": "72188-6",
+        "display": "Clinical summary score [KCCQ]",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures a different thing, focusing on clinical summary scores rather than dementia severity.",
+        "perfect_fit": false
+      },
+      {
+        "code": "82289-0",
+        "display": "Rating of perceived exertion [Score]",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures a different thing, focusing on rating of perceived exertion rather than dementia severity.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "72088-8",
+    "perfect_fit_found": true,
+    "report": {
+      "loinc_code": "72088-8",
+      "semantic_equivalence": "EXACT",
+      "match_details": [
+        "same biomarker",
+        "same method",
+        "same interpretation"
+      ],
+      "confidence": "HIGH",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": "72088-8",
+    "semantic_equivalence": "EXACT",
+    "match_details": [
+      "same biomarker",
+      "same method",
+      "same interpretation"
+    ],
+    "confidence": "HIGH",
+    "recommendation": "APPROVED"
+  }
+}

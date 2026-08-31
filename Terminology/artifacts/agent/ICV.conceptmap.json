@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-icv",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:27:15.405703Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "ICV",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

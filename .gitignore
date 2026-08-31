@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- EAI project-specific ---
+# Node
+node_modules/
+
+# ADNI data (governed by ADNI DUA; do not redistribute)
+Transform/ADNIMERGE_07Jan2026.csv
+Mappings/adnimerge_small.csv
+
+# Generated FHIR outputs (regenerate-able; ADNI DUA-restricted)
+Transform/transformed/
+Mappings/out_*.json
+Mappings/backup/
+
+# Local config overrides (contains cert paths)
+Terminology/config.local.yaml

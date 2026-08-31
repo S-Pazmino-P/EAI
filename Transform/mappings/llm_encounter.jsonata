@@ -1,0 +1,49 @@
+[
+  {
+    "resourceType": "Encounter",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB"
+    },
+    "subject": {
+      "identifier": [
+        {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $string(PTID)
+        }
+      ]
+    },
+    "period": {
+      "start": $.EXAMDATE
+    },
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/identifier/encounter",
+        "value": $string(PTID) & "-" & VISCODE
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://example.org/fhir/StructureDefinition/adni-colprot",
+        "valueString": $.COLPROT
+      },
+      {
+        "url": "http://example.org/fhir/StructureDefinition/adni-origprot",
+        "valueString": $.ORIGPROT
+      },
+      {
+        "url": "http://example.org/fhir/StructureDefinition/adni-site",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://adni.example.org/fhir/CodeSystem/adni-sites",
+              "code": $.SITE
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

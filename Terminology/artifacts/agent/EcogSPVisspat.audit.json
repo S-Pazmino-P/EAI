@@ -1,0 +1,148 @@
+{
+  "field": "EcogSPVisspat",
+  "timestamp": "2026-08-17T18:24:54.986452Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 1.0,
+  "reason": "Perfect semantic fit identified by LLM",
+  "search_terms": [
+    "Study Partner Visuospatial",
+    "Visuospatial Abilities Rating",
+    "Informant Rated Visuospatial",
+    "Partner Assessed Visuospatial Skills"
+  ],
+  "expand_results": [
+    {
+      "term": "Study Partner Visuospatial",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP267278-2",
+          "display": "Everyday Cognition - Study Partner Report Form",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89090-5",
+          "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 2
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89295-0",
+        "display": "Visual-spatial and perceptual abilities panel [ECog.Partner]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89295-0",
+        "display": "Visual-spatial and perceptual abilities panel [ECog.Partner]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89295-0",
+      "display": "Visual-spatial and perceptual abilities panel [ECog.Partner]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "89090-5",
+      "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP267278-2",
+      "display": "Everyday Cognition - Study Partner Report Form",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89295-0",
+        "display": "Visual-spatial and perceptual abilities panel [ECog.Partner]",
+        "score": 1.0,
+        "semantic_match": "EXACT",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated visuospatial abilities, same method as ADNI field.",
+        "perfect_fit": true
+      },
+      {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated visuospatial abilities, minor difference in display name.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated visuospatial abilities, but display name is incomplete.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "89295-0",
+    "perfect_fit_found": true,
+    "report": {
+      "loinc_code": "89295-0",
+      "semantic_equivalence": "EXACT",
+      "match_details": [
+        "Measures study partner-rated visuospatial abilities",
+        "Same method as ADNI field"
+      ],
+      "confidence": "HIGH",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": "89295-0",
+    "semantic_equivalence": "EXACT",
+    "match_details": [
+      "Measures study partner-rated visuospatial abilities",
+      "Same method as ADNI field"
+    ],
+    "confidence": "HIGH",
+    "recommendation": "APPROVED"
+  }
+}

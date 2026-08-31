@@ -1,0 +1,200 @@
+{
+  "field": "DIGITSCOR",
+  "timestamp": "2026-08-17T18:22:07.744649Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "human_review",
+  "score": 0.6,
+  "reason": "Medium confidence - requires review (score: 0.60)",
+  "search_terms": [
+    "Digit Symbol Substitution",
+    "WAIS-R Digit Symbol Score",
+    "Processing Speed Test",
+    "Attention and Executive Function"
+  ],
+  "expand_results": [
+    {
+      "term": "Digit Symbol Substitution",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "WAIS-R Digit Symbol Score",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP433155-1",
+          "display": "Digital readiness score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "100929-9",
+          "display": "Digital confidence score [R-Outcomes]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "100959-6",
+          "display": "Digital readiness score [R-Outcomes]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "97058-2",
+          "display": "Waist circumference score for risk calculation",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP422911-0",
+          "display": "Waist circumference score for risk calculation",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 5
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "100929-9",
+        "display": "Digital confidence score [R-Outcomes]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "100929-9",
+        "display": "Digital confidence score [R-Outcomes]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "100929-9",
+      "display": "Digital confidence score [R-Outcomes]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "100959-6",
+        "display": "Digital readiness score [R-Outcomes]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "100959-6",
+        "display": "Digital readiness score [R-Outcomes]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "100959-6",
+      "display": "Digital readiness score [R-Outcomes]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "97058-2",
+        "display": "Waist circumference score for risk calculation",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "97058-2",
+        "display": "Waist circumference score for risk calculation",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "97058-2",
+      "display": "Waist circumference score for risk calculation",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP433155-1",
+        "display": "Digital readiness score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP433155-1",
+        "display": "Digital readiness score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP433155-1",
+      "display": "Digital readiness score",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP422911-0",
+        "display": "Waist circumference score for risk calculation",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP422911-0",
+        "display": "Waist circumference score for risk calculation",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP422911-0",
+      "display": "Waist circumference score for risk calculation",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "100929-9",
+        "display": "Digital confidence score [R-Outcomes]",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures processing speed, attention, and executive function, but not exact match.",
+        "perfect_fit": false
+      },
+      {
+        "code": "100959-6",
+        "display": "Digital readiness score [R-Outcomes]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures a related concept, but not the exact same thing.",
+        "perfect_fit": false
+      },
+      {
+        "code": "97058-2",
+        "display": "Waist circumference score for risk calculation",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "Measures waist circumference, which is unrelated to processing speed and attention.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "MEDIUM",
+      "match_details": [
+        "Measures related concept, but not exact match",
+        "Method compatibility issue"
+      ],
+      "confidence": "LOW",
+      "recommendation": "NEEDS_REVIEW"
+    }
+  },
+  "report": null
+}

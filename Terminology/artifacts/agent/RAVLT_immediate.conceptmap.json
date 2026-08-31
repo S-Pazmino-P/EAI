@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ravlt_immediate",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:21:11.876731Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "RAVLT_immediate",
+          "target": [
+            {
+              "code": "106731-3",
+              "display": "Verbal memory count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

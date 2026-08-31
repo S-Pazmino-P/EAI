@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-adas13",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:20:36.867742Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "ADAS13",
+          "target": [
+            {
+              "code": "85638-5",
+              "display": "LCDS v3.00 - Cognitive patterns [CMS Assessment]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "field": "EcogSPOrgan",
+  "timestamp": "2026-08-17T18:25:20.148303Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.85,
+  "reason": "High confidence match (score: 0.85)",
+  "search_terms": [
+    "Study Partner Rating",
+    "Organizational Abilities",
+    "Cognitive Functioning",
+    "Daily Living Skills"
+  ],
+  "expand_results": [
+    {
+      "term": "Study Partner Rating",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP267278-2",
+          "display": "Everyday Cognition - Study Partner Report Form",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89090-5",
+          "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 2
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89293-5",
+        "display": "Executive functioning: organization panel [ECog.Partner]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89293-5",
+        "display": "Executive functioning: organization panel [ECog.Partner]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89293-5",
+      "display": "Executive functioning: organization panel [ECog.Partner]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "89090-5",
+      "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP267278-2",
+      "display": "Everyday Cognition - Study Partner Report Form",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89293-5",
+        "display": "Executive functioning: organization panel [ECog.Partner]",
+        "score": 0.85,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated organizational abilities, same general category as ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "score": 0.7,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated organizational abilities, but not exact same thing as ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "score": 0.5,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated organizational abilities, but not clinically equivalent to ADNI field.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "89293-5",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Measures study partner-rated organizational abilities",
+        "Same general category as ADNI field"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Measures study partner-rated organizational abilities",
+      "Same general category as ADNI field"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

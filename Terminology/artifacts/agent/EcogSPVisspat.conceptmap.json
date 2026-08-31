@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ecogspvisspat",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:24:54.985950Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "EcogSPVisspat",
+          "target": [
+            {
+              "code": "89295-0",
+              "display": "Visual-spatial and perceptual abilities panel [ECog.Partner]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

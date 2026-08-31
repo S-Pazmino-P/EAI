@@ -1,0 +1,224 @@
+{
+  "field": "Ventricles",
+  "timestamp": "2026-08-17T18:25:58.751667Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "no_mapping",
+  "score": 0.4,
+  "reason": "Low confidence - no good match (score: 0.40)",
+  "search_terms": [
+    "Ventricles Volume",
+    "Cerebral Ventricular Volume",
+    "MRI Ventricles Measurement",
+    "Lateral and Third Ventricles"
+  ],
+  "expand_results": [
+    {
+      "term": "Ventricles Volume",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP420438-6",
+          "display": "Volume | Heart ventricle - left | Cardiac ultrasound",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP408314-5",
+          "display": "End-diastolic volume | Heart ventricle - left | Cardiopulmonary",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP408315-2",
+          "display": "End-systolic volume | Heart ventricle - left | Cardiopulmonary",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP408071-1",
+          "display": "Stroke volume | Heart ventricle - left | Cardiac ultrasound",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP416089-3",
+          "display": "Stroke volume | Heart ventricle - left | Specific hemodynamics",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP407877-2",
+          "display": "End-diastolic volume | Heart ventricle - left | Cardiac ultrasound",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP416057-0",
+          "display": "End-diastolic volume | Heart ventricle - left | Specific hemodynamics",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP416059-6",
+          "display": "End-systolic volume | Heart ventricle - left | Specific hemodynamics",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP408073-7",
+          "display": "Stroke volume/Body surface area | Heart ventricle - left | Cardiac ultrasound",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP416091-9",
+          "display": "Stroke volume/Body surface area | Heart ventricle - left | Specific hemodynamics",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 19
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "LP420438-6",
+        "display": "Volume | Heart ventricle - left | Cardiac ultrasound",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP420438-6",
+        "display": "Volume | Heart ventricle - left | Cardiac ultrasound",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP73697-2",
+          "child": "95934-6"
+        }
+      },
+      "score": 0.5,
+      "code": "LP420438-6",
+      "display": "Volume | Heart ventricle - left | Cardiac ultrasound",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP408314-5",
+        "display": "End-diastolic volume | Heart ventricle - left | Cardiopulmonary",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP408314-5",
+        "display": "End-diastolic volume | Heart ventricle - left | Cardiopulmonary",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP193347-4",
+          "child": "75988-6"
+        }
+      },
+      "score": 0.5,
+      "code": "LP408314-5",
+      "display": "End-diastolic volume | Heart ventricle - left | Cardiopulmonary",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP408315-2",
+        "display": "End-systolic volume | Heart ventricle - left | Cardiopulmonary",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP408315-2",
+        "display": "End-systolic volume | Heart ventricle - left | Cardiopulmonary",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP193348-2",
+          "child": "75989-4"
+        }
+      },
+      "score": 0.5,
+      "code": "LP408315-2",
+      "display": "End-systolic volume | Heart ventricle - left | Cardiopulmonary",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP408071-1",
+        "display": "Stroke volume | Heart ventricle - left | Cardiac ultrasound",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP408071-1",
+        "display": "Stroke volume | Heart ventricle - left | Cardiac ultrasound",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP73417-5",
+          "child": "93652-6"
+        }
+      },
+      "score": 0.5,
+      "code": "LP408071-1",
+      "display": "Stroke volume | Heart ventricle - left | Cardiac ultrasound",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP416089-3",
+        "display": "Stroke volume | Heart ventricle - left | Specific hemodynamics",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP416089-3",
+        "display": "Stroke volume | Heart ventricle - left | Specific hemodynamics",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP73417-5",
+          "child": "8770-0"
+        }
+      },
+      "score": 0.5,
+      "code": "LP416089-3",
+      "display": "Stroke volume | Heart ventricle - left | Specific hemodynamics",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "LP420438-6",
+        "display": "Volume | Heart ventricle - left | Cardiac ultrasound",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 1 measures heart ventricle volume, not cerebral ventricular volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LP408314-5",
+        "display": "End-diastolic volume | Heart ventricle - left | Cardiopulmonary",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 2 measures heart ventricle end-diastolic volume, not cerebral ventricular volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LP408315-2",
+        "display": "End-systolic volume | Heart ventricle - left | Cardiopulmonary",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 3 measures heart ventricle end-systolic volume, not cerebral ventricular volume.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Semantic match: LOW",
+        "Method compatibility: FALSE"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

@@ -1,0 +1,234 @@
+{
+  "field": "ADAS13",
+  "timestamp": "2026-08-17T18:20:36.868328Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "ADAS13 score",
+    "Alzheimer's cognitive assessment",
+    "Cognitive subscale ADAS",
+    "ADAS 13 item test"
+  ],
+  "expand_results": [
+    {
+      "term": "ADAS13 score",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Alzheimer's cognitive assessment",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP156676-1",
+          "display": "Montreal cognitive assessment",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "46589-8",
+          "display": "Cognitive functioning during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "72133-2",
+          "display": "Montreal Cognitive Assessment [MoCA]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP420252-1",
+          "display": "Brief cognitive assessment tool short form",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "85638-5",
+          "display": "LCDS v3.00 - Cognitive patterns [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "101592-4",
+          "display": "CMS - Cognitive Patterns during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "95872-8",
+          "display": "Brief cognitive assessment tool short form [BCAT]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP75551-9",
+          "display": "Resident assessment protocol 2--Cognitive loss - triggered",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "54624-2",
+          "display": "Cognitive skills for daily decision making during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "45918-0",
+          "display": "Resident assessment protocol 2--Cognitive loss - triggered [Minimum Data Set]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 35
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "46589-8",
+        "display": "Cognitive functioning during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "46589-8",
+        "display": "Cognitive functioning during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "46589-8",
+      "display": "Cognitive functioning during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "72133-2",
+        "display": "Montreal Cognitive Assessment [MoCA]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "72133-2",
+        "display": "Montreal Cognitive Assessment [MoCA]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "72133-2",
+      "display": "Montreal Cognitive Assessment [MoCA]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "85638-5",
+        "display": "LCDS v3.00 - Cognitive patterns [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "85638-5",
+        "display": "LCDS v3.00 - Cognitive patterns [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "85638-5",
+      "display": "LCDS v3.00 - Cognitive patterns [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "101592-4",
+        "display": "CMS - Cognitive Patterns during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "101592-4",
+        "display": "CMS - Cognitive Patterns during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "101592-4",
+      "display": "CMS - Cognitive Patterns during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "95872-8",
+        "display": "Brief cognitive assessment tool short form [BCAT]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "95872-8",
+        "display": "Brief cognitive assessment tool short form [BCAT]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "95872-8",
+      "display": "Brief cognitive assessment tool short form [BCAT]",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "46589-8",
+        "display": "Cognitive functioning during assessment period [CMS Assessment]",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures cognitive function, but not the exact same scale as ADAS13.",
+        "perfect_fit": false
+      },
+      {
+        "code": "72133-2",
+        "display": "Montreal Cognitive Assessment [MoCA]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Different cognitive assessment tool, not the same as ADAS13.",
+        "perfect_fit": false
+      },
+      {
+        "code": "85638-5",
+        "display": "LCDS v3.00 - Cognitive patterns [CMS Assessment]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures cognitive patterns, similar to ADAS13, but not the exact same thing.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "MEDIUM",
+      "match_details": [
+        "Different cognitive assessment tool",
+        "Not the exact same scale"
+      ],
+      "confidence": "LOW",
+      "recommendation": "NEEDS_REVIEW"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "MEDIUM",
+    "match_details": [
+      "Different cognitive assessment tool",
+      "Not the exact same scale"
+    ],
+    "confidence": "LOW",
+    "recommendation": "NEEDS_REVIEW"
+  }
+}

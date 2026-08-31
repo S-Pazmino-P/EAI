@@ -1,0 +1,8 @@
+# Stage 3 (Transform) has no Python dependencies beyond the standard library.
+# It re-executes saved JSONata mappings via the Node.js executor.
+
+# Requirements:
+#   - Python >= 3.10 (standard library only: argparse, csv, glob, json, subprocess)
+#   - Node.js >= 18
+#   - jsonata ^2.2.2 (install via: cd ../Mappings && npm install)
+#   - eval_jsonata.js (located in ../Mappings/, the shared JSONata executor)

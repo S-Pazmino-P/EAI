@@ -1,0 +1,30 @@
+[
+  $.DX != null and $.DX != "" ?
+    {
+      "resourceType": "Condition",
+      "identifier": [
+        { "system": "adni-condition-" & $.PTID & "-" & $.VISCODE, "value": $string($.PTID) & "-" & $.VISCODE }
+      ],
+      "clinicalStatus": { "system": "http://terminology.hl7.org/CodeSystem/condition-clinical", "code": "active" },
+      "code": {
+        "coding": [
+          { "system": "http://snomed.info/sct", "code": "449888003", "display": $.DX }
+        ],
+        "text": $.DX
+      },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": { "text": "PTID" },
+          "value": $string($.PTID)
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $string($.PTID) & "-" & $.VISCODE
+        }
+      },
+      "recordedDate": $.EXAMDATE
+    } : []
+]

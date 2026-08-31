@@ -1,0 +1,228 @@
+{
+  "field": "LDELTOTAL",
+  "timestamp": "2026-08-17T18:21:55.575483Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "Logical Memory Delayed Recall",
+    "Delayed Story Recall Episodic",
+    "WMS-R Logical Memory Delayed",
+    "Episodic Memory Delayed Recall"
+  ],
+  "expand_results": [
+    {
+      "term": "Logical Memory Delayed Recall",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP89848-3",
+          "display": "Memory &or recall ability",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP75118-7",
+          "display": "Memory recall &or ability",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "45989-1",
+          "display": "Memory recall/ability Set",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "54618-4",
+          "display": "Memory/recall ability [MDSv3]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "95743-1",
+          "display": "Memory/recall ability during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "83240-2",
+          "display": "Deprecated  Memory/recall ability [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP75119-5",
+          "display": "Memory &or recall - none of above are recalled",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP75120-3",
+          "display": "Memory &or recall ability during 2D assessment period",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP265734-6",
+          "display": "Memory &or recall ability during 3D assessment period",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP260878-6",
+          "display": "Memory &or recall ability in the last 7D",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 17
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "45989-1",
+        "display": "Memory recall/ability Set",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "45989-1",
+        "display": "Memory recall/ability Set",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "45989-1",
+      "display": "Memory recall/ability Set",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "54618-4",
+        "display": "Memory/recall ability [MDSv3]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "54618-4",
+        "display": "Memory/recall ability [MDSv3]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "54618-4",
+      "display": "Memory/recall ability [MDSv3]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "95743-1",
+        "display": "Memory/recall ability during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "95743-1",
+        "display": "Memory/recall ability during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "95743-1",
+      "display": "Memory/recall ability during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "83240-2",
+        "display": "Deprecated  Memory/recall ability [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "83240-2",
+        "display": "Deprecated  Memory/recall ability [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "True",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "83240-2",
+      "display": "Deprecated  Memory/recall ability [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP89848-3",
+        "display": "Memory &or recall ability",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP89848-3",
+        "display": "Memory &or recall ability",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP89848-3",
+      "display": "Memory &or recall ability",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "45989-1",
+        "display": "Memory recall/ability Set",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures episodic memory, but uses a different term for delayed story recall.",
+        "perfect_fit": false
+      },
+      {
+        "code": "54618-4",
+        "display": "Memory/recall ability [MDSv3]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures episodic memory with a similar term for delayed story recall.",
+        "perfect_fit": false
+      },
+      {
+        "code": "95743-1",
+        "display": "Memory/recall ability during assessment period [CMS Assessment]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures episodic memory, but uses a different term for delayed story recall and is specific to an assessment period.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "54618-4",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Similar term for delayed story recall",
+        "Measures episodic memory"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Similar term for delayed story recall",
+      "Measures episodic memory"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "field": "MMSE",
+  "timestamp": "2026-08-17T18:20:59.051941Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "Mini-Mental State Exam",
+    "Cognitive Function Screening Score",
+    "MMSE Brief Cognitive Test",
+    "30-Point Global Cognition Score"
+  ],
+  "expand_results": [
+    {
+      "term": "Mini-Mental State Exam",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP156457-6",
+          "display": "Mini-mental state examination",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "72107-6",
+          "display": "Mini-Mental State Examination [MMSE]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 2
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "72107-6",
+        "display": "Mini-Mental State Examination [MMSE]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "72107-6",
+        "display": "Mini-Mental State Examination [MMSE]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "72107-6",
+      "display": "Mini-Mental State Examination [MMSE]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP156457-6",
+        "display": "Mini-mental state examination",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP156457-6",
+        "display": "Mini-mental state examination",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.6,
+      "code": "LP156457-6",
+      "display": "Mini-mental state examination",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "72107-6",
+        "display": "Mini-Mental State Examination [MMSE]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Same cognitive screening test, minor display name difference.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LP156457-6",
+        "display": "Mini-mental state examination",
+        "score": 0.5,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Different display name and minor formatting difference.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "72107-6",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Same cognitive screening test",
+        "Minor display name difference"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Same cognitive screening test",
+      "Minor display name difference"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

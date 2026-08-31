@@ -1,0 +1,219 @@
+{
+  "field": "WholeBrain",
+  "timestamp": "2026-08-17T18:26:23.794550Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "no_mapping",
+  "score": 0.4,
+  "reason": "Low confidence - no good match (score: 0.40)",
+  "search_terms": [
+    "Whole Brain Volume",
+    "Total Brain Volume MRI",
+    "Brain Volume UCSF",
+    "MRI Whole Brain Measurement"
+  ],
+  "expand_results": [
+    {
+      "term": "Whole Brain Volume",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "10426-5",
+          "display": "Transfuse whole blood [Volume]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "1335-9",
+          "display": "Whole blood given [Volume]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "10388-7",
+          "display": "Autologous whole blood given [Volume]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "10427-3",
+          "display": "Transfuse whole blood autologous [Volume]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "42637-9",
+          "display": "Natriuretic peptide B [Mass/volume] in Blood",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "7291-8",
+          "display": "Whole Egg IgE Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "45201-1",
+          "display": "Whole Egg IgG Ab [Mass/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "7292-6",
+          "display": "Whole Egg IgG Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "56255-3",
+          "display": "Whole Egg IgG4 Ab [Mass/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "47092-2",
+          "display": "Natriuretic peptide B [Moles/volume] in Serum or Plasma",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 23
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "10426-5",
+        "display": "Transfuse whole blood [Volume]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "10426-5",
+        "display": "Transfuse whole blood [Volume]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP399293-2"
+        }
+      },
+      "score": 0.7,
+      "code": "10426-5",
+      "display": "Transfuse whole blood [Volume]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "1335-9",
+        "display": "Whole blood given [Volume]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "1335-9",
+        "display": "Whole blood given [Volume]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "1335-9",
+      "display": "Whole blood given [Volume]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "10388-7",
+        "display": "Autologous whole blood given [Volume]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "10388-7",
+        "display": "Autologous whole blood given [Volume]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "10388-7",
+      "display": "Autologous whole blood given [Volume]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "10427-3",
+        "display": "Transfuse whole blood autologous [Volume]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "10427-3",
+        "display": "Transfuse whole blood autologous [Volume]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP399171-0"
+        }
+      },
+      "score": 0.7,
+      "code": "10427-3",
+      "display": "Transfuse whole blood autologous [Volume]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "42637-9",
+        "display": "Natriuretic peptide B [Mass/volume] in Blood",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "42637-9",
+        "display": "Natriuretic peptide B [Mass/volume] in Blood",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP385934-7"
+        }
+      },
+      "score": 0.7,
+      "code": "42637-9",
+      "display": "Natriuretic peptide B [Mass/volume] in Blood",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "10426-5",
+        "display": "Transfuse whole blood [Volume]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 1 measures transfusion of whole blood, which is not the same as total brain volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "1335-9",
+        "display": "Whole blood given [Volume]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 2 measures transfusion of whole blood, which is not the same as total brain volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "10388-7",
+        "display": "Autologous whole blood given [Volume]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 3 measures transfusion of autologous whole blood, which is not the same as total brain volume.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Semantic match: LOW",
+        "Method compatibility: NO"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

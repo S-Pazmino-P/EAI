@@ -1,0 +1,13 @@
+[
+  ($.ABETA != null and $string($.ABETA) != "") ? [{
+    "resourceType": "Observation",
+    "identifier": [{ "system": "http://adni.example.org/fhir/identifier/observation", "value": $string($.PTID) & "-" & $.VISCODE & "-ABETA" }],
+    "code": { "coding": [{"system": "http://loinc.org", "code": "79058-4"}], "text": "ABETA" },
+    "component": {
+      "valueQuantity": { "value": $number($replace($string($.ABETA), /^(<=|>=|<|>)\s*/, "")) }
+    },
+    "subject": { "identifier": { "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": { "text": "PTID" }, "value": $string($.PTID) } },
+    "encounter": { "identifier": { "system": "http://adni.example.org/fhir/identifier/encounter", "value": $string($.PTID) & "-" & $.VISCODE } },
+    "effectiveDateTime": $.EXAMDATE
+  }] : []
+]

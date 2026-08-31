@@ -1,0 +1,203 @@
+{
+  "field": "EcogSPDivatt",
+  "timestamp": "2026-08-17T18:25:33.072160Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "Study Partner Divided Attention",
+    "Divided Attention Rating",
+    "SPDA Informant Rated",
+    "Partner Rated Divided Attention"
+  ],
+  "expand_results": [
+    {
+      "term": "Study Partner Divided Attention",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP267153-7",
+          "display": "Executive functioning: divided attention panel",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89298-4",
+          "display": "Executive functioning: divided attention panel [ECog.Partner]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89285-1",
+          "display": "Executive functioning: divided attention panel [ECog]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP267278-2",
+          "display": "Everyday Cognition - Study Partner Report Form",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89090-5",
+          "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 5
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89298-4",
+        "display": "Executive functioning: divided attention panel [ECog.Partner]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89298-4",
+        "display": "Executive functioning: divided attention panel [ECog.Partner]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89298-4",
+      "display": "Executive functioning: divided attention panel [ECog.Partner]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89285-1",
+        "display": "Executive functioning: divided attention panel [ECog]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89285-1",
+        "display": "Executive functioning: divided attention panel [ECog]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "89285-1",
+      "display": "Executive functioning: divided attention panel [ECog]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "89090-5",
+      "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP267153-7",
+        "display": "Executive functioning: divided attention panel",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP267153-7",
+        "display": "Executive functioning: divided attention panel",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP267153-7",
+      "display": "Executive functioning: divided attention panel",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP267278-2",
+      "display": "Everyday Cognition - Study Partner Report Form",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89298-4",
+        "display": "Executive functioning: divided attention panel [ECog.Partner]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated divided attention, same general category as ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "89285-1",
+        "display": "Executive functioning: divided attention panel [ECog]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated divided attention, but uses 'ECog' instead of 'ECog.Partner'.",
+        "perfect_fit": false
+      },
+      {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures study partner-rated divided attention, but is a full report form instead of a panel.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "89298-4",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Measures study partner-rated divided attention",
+        "Same general category as ADNI field"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Measures study partner-rated divided attention",
+      "Same general category as ADNI field"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

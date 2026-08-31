@@ -1,0 +1,225 @@
+{
+  "field": "AV45",
+  "timestamp": "2026-08-17T18:19:16.447487Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "no_mapping",
+  "score": 0.4,
+  "reason": "Low confidence - no good match (score: 0.40)",
+  "search_terms": [
+    "AV45 PET SUVr",
+    "Amyloid plaque binding measurement",
+    "Florbetapir AV45 amyloid",
+    "Amyloid beta plaque deposition"
+  ],
+  "expand_results": [
+    {
+      "term": "AV45 PET SUVr",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Amyloid plaque binding measurement",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "106939-2",
+          "display": "Amyloid probability score in Plasma by Calculation",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP428286-1",
+          "display": "Amyloid plaques probability score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "110022-1",
+          "display": "Acetylcholine receptor binding Ab [Measurement] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "108738-6",
+          "display": "Iron binding capacity [Measurement] in Serum or Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "108737-8",
+          "display": "Iron binding capacity.unsaturated [Measurement] in Serum or Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "109055-4",
+          "display": "Thyrotropin binding inhibitory immunoglobulins [Measurement] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "108777-4",
+          "display": "Thyroxine binding globulin [Measurement] in Serum or Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "109985-2",
+          "display": "Human upstream binding factor Ab [Measurement] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "98138-1",
+          "display": "Amyloid plaques probability score based on clinical and lab data",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "109124-8",
+          "display": "Voltage-gated calcium channel P/Q type binding Ab [Measurement] in Serum",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 10
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "106939-2",
+        "display": "Amyloid probability score in Plasma by Calculation",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "106939-2",
+        "display": "Amyloid probability score in Plasma by Calculation",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "106939-2",
+      "display": "Amyloid probability score in Plasma by Calculation",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "110022-1",
+        "display": "Acetylcholine receptor binding Ab [Measurement] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "110022-1",
+        "display": "Acetylcholine receptor binding Ab [Measurement] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "110022-1",
+      "display": "Acetylcholine receptor binding Ab [Measurement] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "108738-6",
+        "display": "Iron binding capacity [Measurement] in Serum or Plasma",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "108738-6",
+        "display": "Iron binding capacity [Measurement] in Serum or Plasma",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "108738-6",
+      "display": "Iron binding capacity [Measurement] in Serum or Plasma",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "108737-8",
+        "display": "Iron binding capacity.unsaturated [Measurement] in Serum or Plasma",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "108737-8",
+        "display": "Iron binding capacity.unsaturated [Measurement] in Serum or Plasma",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "108737-8",
+      "display": "Iron binding capacity.unsaturated [Measurement] in Serum or Plasma",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "109055-4",
+        "display": "Thyrotropin binding inhibitory immunoglobulins [Measurement] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "109055-4",
+        "display": "Thyrotropin binding inhibitory immunoglobulins [Measurement] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "109055-4",
+      "display": "Thyrotropin binding inhibitory immunoglobulins [Measurement] in Serum",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "106939-2",
+        "display": "Amyloid probability score in Plasma by Calculation",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 1 measures amyloid probability score, not direct plaque deposition.",
+        "perfect_fit": false
+      },
+      {
+        "code": "110022-1",
+        "display": "Acetylcholine receptor binding Ab [Measurement] in Serum",
+        "score": 0.2,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "Candidate 2 measures acetylcholine receptor binding, not amyloid plaque deposition.",
+        "perfect_fit": false
+      },
+      {
+        "code": "108738-6",
+        "display": "Iron binding capacity [Measurement] in Serum or Plasma",
+        "score": 0.1,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "Candidate 3 measures iron binding capacity, not amyloid plaque deposition.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "NONE",
+      "match_details": [
+        "Semantic match: LOW",
+        "Method compatibility: FALSE"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

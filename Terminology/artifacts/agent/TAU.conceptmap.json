@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-tau",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:19:57.038172Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "TAU",
+          "target": [
+            {
+              "code": "30160-6",
+              "display": "Tau protein [Mass/volume] in Cerebral spinal fluid"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

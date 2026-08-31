@@ -1,0 +1,219 @@
+{
+  "field": "ADAS11",
+  "timestamp": "2026-08-17T18:20:23.630426Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "human_review",
+  "score": 0.6,
+  "reason": "Medium confidence - requires review (score: 0.60)",
+  "search_terms": [
+    "ADAS Cognitive Score",
+    "Alzheimer's Disease Assessment Scale",
+    "Cognitive Subscale Score ADAS11",
+    "ADAS11 Cognitive Assessment"
+  ],
+  "expand_results": [
+    {
+      "term": "ADAS Cognitive Score",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP203069-2",
+          "display": "Applied cognitive score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "79535-1",
+          "display": "Applied cognitive score [AM-PAC]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP203068-4",
+          "display": "Applied cognitive score standard error",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "79536-9",
+          "display": "Applied cognitive score standard error [AM-PAC]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "81538-1",
+          "display": "PROMIS cognitive function - version 2.0 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP212472-7",
+          "display": "PROMIS cognitive function - version 2.0 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "90218-9",
+          "display": "PROMIS pediatric cognitive function - version 1.0 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP268520-6",
+          "display": "PROMIS pediatric cognitive function - version 1.0 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "88851-1",
+          "display": "PROMIS cognitive function - abilities subset - version 1.0 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "81537-3",
+          "display": "PROMIS cognitive function - abilities subset - version 2.0 T-score",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 32
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "79535-1",
+        "display": "Applied cognitive score [AM-PAC]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "79535-1",
+        "display": "Applied cognitive score [AM-PAC]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "79535-1",
+      "display": "Applied cognitive score [AM-PAC]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "79536-9",
+        "display": "Applied cognitive score standard error [AM-PAC]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "79536-9",
+        "display": "Applied cognitive score standard error [AM-PAC]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "79536-9",
+      "display": "Applied cognitive score standard error [AM-PAC]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "81538-1",
+        "display": "PROMIS cognitive function - version 2.0 T-score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "81538-1",
+        "display": "PROMIS cognitive function - version 2.0 T-score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "81538-1",
+      "display": "PROMIS cognitive function - version 2.0 T-score",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "90218-9",
+        "display": "PROMIS pediatric cognitive function - version 1.0 T-score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "90218-9",
+        "display": "PROMIS pediatric cognitive function - version 1.0 T-score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "90218-9",
+      "display": "PROMIS pediatric cognitive function - version 1.0 T-score",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "88851-1",
+        "display": "PROMIS cognitive function - abilities subset - version 1.0 T-score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "88851-1",
+        "display": "PROMIS cognitive function - abilities subset - version 1.0 T-score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "88851-1",
+      "display": "PROMIS cognitive function - abilities subset - version 1.0 T-score",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "79535-1",
+        "display": "Applied cognitive score [AM-PAC]",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures cognitive assessment, but not the exact same version as ADAS11.",
+        "perfect_fit": false
+      },
+      {
+        "code": "79536-9",
+        "display": "Applied cognitive score standard error [AM-PAC]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures standard error, not the exact same thing as ADAS11.",
+        "perfect_fit": false
+      },
+      {
+        "code": "81538-1",
+        "display": "PROMIS cognitive function - version 2.0 T-score",
+        "score": 0.3,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "Measures a different type of cognitive assessment, not the exact same thing as ADAS11.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "NONE",
+      "match_details": [
+        "Different type of cognitive assessment",
+        "Different method"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

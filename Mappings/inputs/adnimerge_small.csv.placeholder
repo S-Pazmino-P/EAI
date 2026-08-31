@@ -1,0 +1,16 @@
+This file is a placeholder.
+
+Place the 16-row ADNI sample CSV here as `adnimerge_small.csv` before running
+the pipeline. The pipeline resolves it via the path
+`inputs/adnimerge_small.csv` relative to the `pipeline/` script.
+
+How to obtain the data:
+  - Access the ADNI dataset via the LONI Image and Data Archive (IDA):
+      https://ida.loni.usc.edu
+  - Download ADNIMERGE and extract a 16-row sample (the restricted,
+    de-identified participant-level data).
+  - Save it in this directory as `adnimerge_small.csv`.
+
+ADNI data are de-identified and distributed under the ADNI Data Use Agreement,
+which prohibits redistribution of participant-level data (raw or derived).
+For details see the "Data availability" section of README.md.

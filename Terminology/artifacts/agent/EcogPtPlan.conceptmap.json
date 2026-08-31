@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ecogptplan",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:23:36.633815Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "EcogPtPlan",
+          "target": [
+            {
+              "code": "89289-3",
+              "display": "Executive functioning: planning panel [ECog]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

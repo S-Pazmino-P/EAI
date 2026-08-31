@@ -1,0 +1,218 @@
+{
+  "field": "EcogSPTotal",
+  "timestamp": "2026-08-17T18:25:45.603701Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 1.0,
+  "reason": "Perfect semantic fit identified by LLM",
+  "search_terms": [
+    "Ecog Study Partner Total",
+    "Everyday Cognition Score",
+    "Study Partner Rated ECog",
+    "Cognitive Function Assessment"
+  ],
+  "expand_results": [
+    {
+      "term": "Ecog Study Partner Total",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "89090-5",
+          "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "55215-8",
+          "display": "Total number of lifetime sexual partners",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP267278-2",
+          "display": "Everyday Cognition - Study Partner Report Form",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP94249-7",
+          "display": "Total number of lifetime sexual partners",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "63948-4",
+          "display": "How many total tablets per week of pain-relieving medication [CA Teachers]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "63885-8",
+          "display": "How many years in total did you take progesterone or a progestin - excluding any time when you temporarily stopped [CA Teachers]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "63877-5",
+          "display": "How many years in total did you take premarin - exclude those periods when you temporarily stopped [CA Teachers]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "63881-7",
+          "display": "How many years in total did you take estrogens other than premarin pills - exclude any time when you temporarily stopped [CA Teachers]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 8
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89090-5",
+      "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "55215-8",
+        "display": "Total number of lifetime sexual partners",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "55215-8",
+        "display": "Total number of lifetime sexual partners",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "55215-8",
+      "display": "Total number of lifetime sexual partners",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "63948-4",
+        "display": "How many total tablets per week of pain-relieving medication [CA Teachers]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "63948-4",
+        "display": "How many total tablets per week of pain-relieving medication [CA Teachers]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "63948-4",
+      "display": "How many total tablets per week of pain-relieving medication [CA Teachers]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "63885-8",
+        "display": "How many years in total did you take progesterone or a progestin - excluding any time when you temporarily stopped [CA Teachers]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "63885-8",
+        "display": "How many years in total did you take progesterone or a progestin - excluding any time when you temporarily stopped [CA Teachers]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "63885-8",
+      "display": "How many years in total did you take progesterone or a progestin - excluding any time when you temporarily stopped [CA Teachers]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "63877-5",
+        "display": "How many years in total did you take premarin - exclude those periods when you temporarily stopped [CA Teachers]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "63877-5",
+        "display": "How many years in total did you take premarin - exclude those periods when you temporarily stopped [CA Teachers]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "63877-5",
+      "display": "How many years in total did you take premarin - exclude those periods when you temporarily stopped [CA Teachers]",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "score": 1.0,
+        "semantic_match": "EXACT",
+        "method_compatible": true,
+        "rationale": "The LOINC code measures the exact same thing as the ADNI field, with a compatible method.",
+        "perfect_fit": true
+      },
+      {
+        "code": "55215-8",
+        "display": "Total number of lifetime sexual partners",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures a completely different thing, with an incompatible method.",
+        "perfect_fit": false
+      },
+      {
+        "code": "63948-4",
+        "display": "How many total tablets per week of pain-relieving medication [CA Teachers]",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures a completely different thing, with an incompatible method.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "89090-5",
+    "perfect_fit_found": true,
+    "report": {
+      "loinc_code": "89090-5",
+      "semantic_equivalence": "EXACT",
+      "match_details": [
+        "same biomarker",
+        "compatible method"
+      ],
+      "confidence": "HIGH",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": "89090-5",
+    "semantic_equivalence": "EXACT",
+    "match_details": [
+      "same biomarker",
+      "compatible method"
+    ],
+    "confidence": "HIGH",
+    "recommendation": "APPROVED"
+  }
+}

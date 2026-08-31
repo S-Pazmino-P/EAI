@@ -1,0 +1,178 @@
+{
+  "field": "mPACCdigit",
+  "timestamp": "2026-08-17T18:27:26.990637Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "mPACC digit score",
+    "preclinical AD cognitive composite",
+    "digit symbol test score",
+    "modified PACC with digit symbol"
+  ],
+  "expand_results": [
+    {
+      "term": "mPACC digit score",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP433149-4",
+          "display": "Digital confidence score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP433155-1",
+          "display": "Digital readiness score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "100929-9",
+          "display": "Digital confidence score [R-Outcomes]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "100959-6",
+          "display": "Digital readiness score [R-Outcomes]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 4
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "100929-9",
+        "display": "Digital confidence score [R-Outcomes]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "100929-9",
+        "display": "Digital confidence score [R-Outcomes]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "100929-9",
+      "display": "Digital confidence score [R-Outcomes]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "100959-6",
+        "display": "Digital readiness score [R-Outcomes]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "100959-6",
+        "display": "Digital readiness score [R-Outcomes]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "100959-6",
+      "display": "Digital readiness score [R-Outcomes]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP433149-4",
+        "display": "Digital confidence score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP433149-4",
+        "display": "Digital confidence score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP433149-4",
+      "display": "Digital confidence score",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP433155-1",
+        "display": "Digital readiness score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP433155-1",
+        "display": "Digital readiness score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP433155-1",
+      "display": "Digital readiness score",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "100929-9",
+        "display": "Digital confidence score [R-Outcomes]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Same concept of digital confidence, but not exact match in method or interpretation.",
+        "perfect_fit": false
+      },
+      {
+        "code": "100959-6",
+        "display": "Digital readiness score [R-Outcomes]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Same concept of digital readiness, but not exact match in method or interpretation.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LP433149-4",
+        "display": "Digital confidence score",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Same concept of digital confidence, but different in specificity and clinical validity.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "MEDIUM",
+      "match_details": [
+        "Different specificity",
+        "Clinical validity not clear"
+      ],
+      "confidence": "LOW",
+      "recommendation": "NEEDS_REVIEW"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "MEDIUM",
+    "match_details": [
+      "Different specificity",
+      "Clinical validity not clear"
+    ],
+    "confidence": "LOW",
+    "recommendation": "NEEDS_REVIEW"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "field": "RAVLT_forgetting",
+  "timestamp": "2026-08-17T18:21:40.276435Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "no_mapping",
+  "score": 0.4,
+  "reason": "Low confidence - no good match (score: 0.40)",
+  "search_terms": [
+    "RAVLT Forgetting",
+    "Retroactive Interference Score",
+    "Delayed Recall Difference",
+    "Trial 5 Delayed Recall"
+  ],
+  "expand_results": [
+    {
+      "term": "RAVLT Forgetting",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Retroactive Interference Score",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP191931-7",
+          "display": "Pain interference score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "71962-5",
+          "display": "PROMIS-29 Pain interference score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP156150-7",
+          "display": "PROMIS-29 Pain interference score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "77565-0",
+          "display": "Pain interference score [BPI Short Form]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP193430-8",
+          "display": "PROMIS pain interference - version 1.0 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP268254-2",
+          "display": "PROMIS pain interference - version 1.1 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "71961-7",
+          "display": "PROMIS-29 Pain interference score T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89675-3",
+          "display": "PROMIS cancer pain interference - version 1.1 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP267973-8",
+          "display": "PROMIS cancer pain interference - version 1.1 T-score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP268263-3",
+          "display": "PROMIS pediatric pain interference - version 2.0 T-score",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 36
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "71962-5",
+        "display": "PROMIS-29 Pain interference score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "71962-5",
+        "display": "PROMIS-29 Pain interference score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "71962-5",
+      "display": "PROMIS-29 Pain interference score",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "77565-0",
+        "display": "Pain interference score [BPI Short Form]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "77565-0",
+        "display": "Pain interference score [BPI Short Form]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "77565-0",
+      "display": "Pain interference score [BPI Short Form]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "71961-7",
+        "display": "PROMIS-29 Pain interference score T-score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "71961-7",
+        "display": "PROMIS-29 Pain interference score T-score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "71961-7",
+      "display": "PROMIS-29 Pain interference score T-score",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89675-3",
+        "display": "PROMIS cancer pain interference - version 1.1 T-score",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89675-3",
+        "display": "PROMIS cancer pain interference - version 1.1 T-score",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "89675-3",
+      "display": "PROMIS cancer pain interference - version 1.1 T-score",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA30378-6",
+        "display": "Main floor bathroom has safety rails",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA30378-6",
+        "display": "Main floor bathroom has safety rails",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA30378-6",
+      "display": "Main floor bathroom has safety rails",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "71962-5",
+        "display": "PROMIS-29 Pain interference score",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures pain interference, which is not the same as retroactive interference - retention over delay.",
+        "perfect_fit": false
+      },
+      {
+        "code": "77565-0",
+        "display": "Pain interference score [BPI Short Form]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures pain interference, which is not the same as retroactive interference - retention over delay.",
+        "perfect_fit": false
+      },
+      {
+        "code": "71961-7",
+        "display": "PROMIS-29 Pain interference score T-score",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures pain interference, which is not the same as retroactive interference - retention over delay.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Semantic match: LOW",
+        "Method compatibility: NO"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ventricles",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:25:58.751172Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "Ventricles",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

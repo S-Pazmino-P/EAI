@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-av45",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:19:16.447002Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "AV45",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

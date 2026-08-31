@@ -1,0 +1,208 @@
+{
+  "field": "EcogPtPlan",
+  "timestamp": "2026-08-17T18:23:36.634383Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.85,
+  "reason": "High confidence match (score: 0.85)",
+  "search_terms": [
+    "Planning Abilities",
+    "Cognitive Planning Self-Rating",
+    "Everyday Cognition Planning",
+    "Self-Perceived Planning Skills"
+  ],
+  "expand_results": [
+    {
+      "term": "Planning Abilities",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP231902-0",
+          "display": "LCDS v3.00 - Functional abilities and goals - planned discharge",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP264929-3",
+          "display": "LCDS v4.00 - Functional abilities and goals - planned discharge",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP411296-9",
+          "display": "LCDS v5.00 - Functional abilities and goals - planned discharge",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "85664-1",
+          "display": "LCDS v3.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "88237-3",
+          "display": "LCDS v4.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "93209-5",
+          "display": "LCDS v5.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 6
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89289-3",
+        "display": "Executive functioning: planning panel [ECog]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89289-3",
+        "display": "Executive functioning: planning panel [ECog]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89289-3",
+      "display": "Executive functioning: planning panel [ECog]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "85664-1",
+        "display": "LCDS v3.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "85664-1",
+        "display": "LCDS v3.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "85664-1",
+      "display": "LCDS v3.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "88237-3",
+        "display": "LCDS v4.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "88237-3",
+        "display": "LCDS v4.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "88237-3",
+      "display": "LCDS v4.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "93209-5",
+        "display": "LCDS v5.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "93209-5",
+        "display": "LCDS v5.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "93209-5",
+      "display": "LCDS v5.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP231902-0",
+        "display": "LCDS v3.00 - Functional abilities and goals - planned discharge",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP231902-0",
+        "display": "LCDS v3.00 - Functional abilities and goals - planned discharge",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP231902-0",
+      "display": "LCDS v3.00 - Functional abilities and goals - planned discharge",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89289-3",
+        "display": "Executive functioning: planning panel [ECog]",
+        "score": 0.85,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures executive functioning, which is related to planning abilities, but not exactly the same.",
+        "perfect_fit": false
+      },
+      {
+        "code": "85664-1",
+        "display": "LCDS v3.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+        "score": 0.7,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Measures functional abilities, which is a broader category than planning abilities.",
+        "perfect_fit": false
+      },
+      {
+        "code": "88237-3",
+        "display": "LCDS v4.00 - Functional abilities and goals - planned discharge [CMS Assessment]",
+        "score": 0.7,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Measures functional abilities, which is a broader category than planning abilities.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Measures functional abilities, which is a broader category than planning abilities.",
+        "Method compatibility issues"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "NEEDS_REVIEW"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "LOW",
+    "match_details": [
+      "Measures functional abilities, which is a broader category than planning abilities.",
+      "Method compatibility issues"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "NEEDS_REVIEW"
+  }
+}

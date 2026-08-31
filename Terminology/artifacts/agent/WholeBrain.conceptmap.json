@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-wholebrain",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:26:23.793968Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "WholeBrain",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

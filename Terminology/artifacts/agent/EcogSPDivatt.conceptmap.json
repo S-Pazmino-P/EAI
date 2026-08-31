@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ecogspdivatt",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:25:33.071893Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "EcogSPDivatt",
+          "target": [
+            {
+              "code": "89298-4",
+              "display": "Executive functioning: divided attention panel [ECog.Partner]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

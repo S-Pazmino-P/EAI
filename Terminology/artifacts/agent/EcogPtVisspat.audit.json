@@ -1,0 +1,120 @@
+{
+  "field": "EcogPtVisspat",
+  "timestamp": "2026-08-17T18:23:23.606468Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "Visuospatial Abilities",
+    "Ecog Visuospatial Self-rating",
+    "PIB PET Visuospatial",
+    "Amyloid SUVr Visuospatial"
+  ],
+  "expand_results": [
+    {
+      "term": "Visuospatial Abilities",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Ecog Visuospatial Self-rating",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "89133-3",
+          "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 1
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89288-5",
+        "display": "Visual-spatial and perceptual abilities panel [ECog]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89288-5",
+        "display": "Visual-spatial and perceptual abilities panel [ECog]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89288-5",
+      "display": "Visual-spatial and perceptual abilities panel [ECog]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89133-3",
+        "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89133-3",
+        "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "89133-3",
+      "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89288-5",
+        "display": "Visual-spatial and perceptual abilities panel [ECog]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures self-perceived visuospatial abilities, same general category as ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "89133-3",
+        "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures self-reported visuospatial abilities, but not exact match to ADNI field.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "MEDIUM",
+      "match_details": [
+        "Measures self-reported visuospatial abilities",
+        "Not exact match to ADNI field"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "NEEDS_REVIEW"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "MEDIUM",
+    "match_details": [
+      "Measures self-reported visuospatial abilities",
+      "Not exact match to ADNI field"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "NEEDS_REVIEW"
+  }
+}

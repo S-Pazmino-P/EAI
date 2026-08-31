@@ -1,0 +1,218 @@
+{
+  "field": "EcogPtLang",
+  "timestamp": "2026-08-17T18:23:12.907193Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.85,
+  "reason": "High confidence match (score: 0.85)",
+  "search_terms": [
+    "Language Function",
+    "Everyday Language",
+    "Cognitive Language",
+    "Self-Reported Language"
+  ],
+  "expand_results": [
+    {
+      "term": "Language Function",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP431265-0",
+          "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP431268-4",
+          "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP431266-8",
+          "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP431267-6",
+          "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older score",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "99836-9",
+          "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "99843-5",
+          "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older score [ASHA NOMS]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "99844-3",
+          "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "99851-8",
+          "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older score [ASHA NOMS]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 8
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89287-7",
+        "display": "Language panel [ECog]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89287-7",
+        "display": "Language panel [ECog]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89287-7",
+      "display": "Language panel [ECog]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "99836-9",
+        "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "99836-9",
+        "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "99836-9",
+      "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "99843-5",
+        "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older score [ASHA NOMS]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "99843-5",
+        "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older score [ASHA NOMS]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "99843-5",
+      "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older score [ASHA NOMS]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "99844-3",
+        "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "99844-3",
+        "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "99844-3",
+      "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "99851-8",
+        "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older score [ASHA NOMS]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "99851-8",
+        "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older score [ASHA NOMS]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "99851-8",
+      "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older score [ASHA NOMS]",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89287-7",
+        "display": "Language panel [ECog]",
+        "score": 0.85,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures self-perceived everyday language function, same general category as ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "99836-9",
+        "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Measures spoken language comprehension, different method and interpretation from ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "99843-5",
+        "display": "Functional Communication Measure - Spoken Language Comprehension ages 6 or older score [ASHA NOMS]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Measures spoken language comprehension, different method and interpretation from ADNI field.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "89287-7",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Measures self-perceived everyday language function",
+        "Same general category as ADNI field"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Measures self-perceived everyday language function",
+      "Same general category as ADNI field"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

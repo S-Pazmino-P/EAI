@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-abeta",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:19:43.180822Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "ABETA",
+          "target": [
+            {
+              "code": "106057-3",
+              "display": "Beta-Amyloid 1-42 and 1-40 panel - Cerebral spinal fluid"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

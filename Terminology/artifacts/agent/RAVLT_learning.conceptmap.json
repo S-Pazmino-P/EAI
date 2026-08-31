@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ravlt_learning",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:21:26.667982Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "RAVLT_learning",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

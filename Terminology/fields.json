@@ -1,0 +1,1621 @@
+{
+  "fields": [
+    {
+      "field_name": "RID",
+      "semantic_group": "identifier",
+      "description": "Participant Roster ID - A unique numerical identifier assigned to each participant upon enrollment in ADNI",
+      "meaning": "Unique participant identifier",
+      "value_type": "numeric",
+      "example_values": [
+        "1001",
+        "2005",
+        "3456"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Not mappable to standard terminology - internal ADNI identifier"
+    },
+    {
+      "field_name": "COLPROT",
+      "semantic_group": "diagnosis",
+      "description": "Collection Protocol - The ADNI study phase under which the specific data point was collected",
+      "meaning": "ADNI study phase of data collection",
+      "value_type": "categorical",
+      "possible_values": [
+        "ADNI1",
+        "ADNI2",
+        "ADNI3",
+        "ADNIGO"
+      ],
+      "example_values": [
+        "ADNI2",
+        "ADNI3"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Fixed protocol vocabulary - no standard terminology mapping needed"
+    },
+    {
+      "field_name": "ORIGPROT",
+      "semantic_group": "diagnosis",
+      "description": "Original Protocol - The initial ADNI study phase in which the participant was originally enrolled",
+      "meaning": "Initial ADNI enrollment phase",
+      "value_type": "categorical",
+      "possible_values": [
+        "ADNI1",
+        "ADNI2",
+        "ADNI3",
+        "ADNIGO"
+      ],
+      "example_values": [
+        "ADNI1",
+        "ADNI2"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Fixed protocol vocabulary - no standard terminology mapping needed"
+    },
+    {
+      "field_name": "PTID",
+      "semantic_group": "identifier",
+      "description": "Participant ID - The original participant identifier as assigned by the ADNI clinical site",
+      "meaning": "Original site-assigned participant identifier",
+      "value_type": "text",
+      "example_values": [
+        "011_S_0001",
+        "030_S_0023",
+        "120_AD_0045"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Not mappable to standard terminology - internal ADNI identifier"
+    },
+    {
+      "field_name": "SITE",
+      "semantic_group": "demographic",
+      "description": "Site ID - The numerical identifier for the ADNI collection site",
+      "meaning": "Clinical site number",
+      "value_type": "numeric",
+      "example_values": [
+        "11",
+        "30",
+        "120"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Site identifiers are internal to ADNI"
+    },
+    {
+      "field_name": "VISCODE",
+      "semantic_group": "identifier",
+      "description": "Visit Code - A standardized code indicating the specific visit timepoint",
+      "meaning": "Visit timepoint identifier",
+      "value_type": "categorical",
+      "possible_values": [
+        "bl",
+        "sc",
+        "m03",
+        "m06",
+        "m12",
+        "m24",
+        "m36",
+        "m48",
+        "m60",
+        "m72"
+      ],
+      "example_values": [
+        "bl",
+        "m12",
+        "m24"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Visit codes are ADNI-specific"
+    },
+    {
+      "field_name": "EXAMDATE",
+      "semantic_group": "identifier",
+      "description": "Examination Date - The calendar date on which the participant's examination visit occurred",
+      "meaning": "Date of examination",
+      "value_type": "date",
+      "example_values": [
+        "2015-03-15",
+        "2018-06-22"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Not mappable to standard terminology - date field"
+    },
+    {
+      "field_name": "AGE",
+      "semantic_group": "demographic",
+      "description": "Age - The participant's age in years at the time of the specific examination visit",
+      "meaning": "Participant age at visit",
+      "value_type": "numeric",
+      "example_values": [
+        "72.5",
+        "68.3",
+        "75.0"
+      ],
+      "unit": "years",
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Demographic age - no terminology mapping"
+    },
+    {
+      "field_name": "PTGENDER",
+      "semantic_group": "demographic",
+      "description": "Participant Gender - The biological sex of the participant at birth",
+      "meaning": "Biological sex",
+      "value_type": "categorical",
+      "possible_values": [
+        "Male",
+        "Female"
+      ],
+      "example_values": [
+        "Male",
+        "Female"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Fixed gender values - use HL7 administrative gender"
+    },
+    {
+      "field_name": "PTEDUCAT",
+      "semantic_group": "demographic",
+      "description": "Participant Education - The number of years of formal education completed by the participant",
+      "meaning": "Years of formal education",
+      "value_type": "numeric",
+      "possible_values": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "example_values": [
+        "12",
+        "16",
+        "18"
+      ],
+      "unit": "years",
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Education years - no standard terminology mapping"
+    },
+    {
+      "field_name": "PTETHCAT",
+      "semantic_group": "demographic",
+      "description": "Participant Ethnicity - A classification of whether the participant identifies as Hispanic or Latino/Latina",
+      "meaning": "Ethnicity classification",
+      "value_type": "categorical",
+      "possible_values": [
+        "Hisp/Latino",
+        "Not Hisp/Latino",
+        "Unknown"
+      ],
+      "example_values": [
+        "Not Hisp/Latino",
+        "Hisp/Latino"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Use HL7 ethnicity code system"
+    },
+    {
+      "field_name": "PTRACCAT",
+      "semantic_group": "demographic",
+      "description": "Participant Race - A classification of the participant's racial background",
+      "meaning": "Racial classification",
+      "value_type": "categorical",
+      "possible_values": [
+        "Am Indian/Alaskan",
+        "Asian",
+        "Black",
+        "Hawaiian/Other PI",
+        "More than one",
+        "Unknown",
+        "White"
+      ],
+      "example_values": [
+        "White",
+        "Asian",
+        "Black"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Use HL7 race code system"
+    },
+    {
+      "field_name": "PTMARRY",
+      "semantic_group": "demographic",
+      "description": "Participant Marital Status - The participant's current marital status",
+      "meaning": "Marital status",
+      "value_type": "categorical",
+      "possible_values": [
+        "Divorced",
+        "Married",
+        "Never married",
+        "Widowed",
+        "Unknown"
+      ],
+      "example_values": [
+        "Married",
+        "Widowed"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Use HL7 marital status code system"
+    },
+    {
+      "field_name": "APOE4",
+      "semantic_group": "genetic",
+      "description": "APOE E4 Allele Count - The number of Apolipoprotein E (APOE) \u03b54 alleles carried by the participant",
+      "meaning": "APOE epsilon 4 allele count (genetic risk factor for AD)",
+      "value_type": "numeric",
+      "possible_values": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "example_values": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Fixed allele count values - no standard terminology needed"
+    },
+    {
+      "field_name": "FDG",
+      "semantic_group": "quantitative-observation",
+      "description": "FDG-PET Standardized Uptake Value Ratio - Cerebral glucose metabolism from Fluorodeoxyglucose PET",
+      "meaning": "Brain glucose metabolism measured by FDG-PET",
+      "value_type": "numeric",
+      "example_values": [
+        "1.2",
+        "1.5",
+        "1.8"
+      ],
+      "unit": "SUVr",
+      "reference_range": {
+        "normal": ">1.3",
+        "abnormal": "<1.3",
+        "typical_range": "0.5-2.5"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Biomarker measurement requiring iterative terminology search"
+    },
+    {
+      "field_name": "PIB",
+      "semantic_group": "quantitative-observation",
+      "description": "Pittsburgh Compound B (PIB) PET SUVr - Amyloid plaque binding measurement using PIB tracer",
+      "meaning": "Amyloid beta plaque deposition in brain tissue measured by PIB PET",
+      "value_type": "numeric",
+      "example_values": [
+        "1.2",
+        "1.8",
+        "2.1",
+        "2.5"
+      ],
+      "unit": "SUVr",
+      "reference_range": {
+        "normal": "<1.5",
+        "positive": "\u22651.5",
+        "typical_range": "1.0-2.5"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Amyloid PET biomarker - schema admits reference region not specified"
+    },
+    {
+      "field_name": "AV45",
+      "semantic_group": "quantitative-observation",
+      "description": "Florbetapir (AV45) PET SUVr - Amyloid plaque binding measurement using AV45 tracer",
+      "meaning": "Amyloid beta plaque deposition measured by Florbetapir PET",
+      "value_type": "numeric",
+      "example_values": [
+        "0.9",
+        "1.2",
+        "1.5",
+        "1.8"
+      ],
+      "unit": "SUVr",
+      "reference_range": {
+        "normal": "<1.1",
+        "positive": "\u22651.1",
+        "typical_range": "0.8-2.0"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Amyloid PET biomarker - schema admits reference region not specified"
+    },
+    {
+      "field_name": "FBB",
+      "semantic_group": "quantitative-observation",
+      "description": "Florbetaben PET SUVr - Amyloid plaque binding measurement using Florbetaben tracer",
+      "meaning": "Amyloid beta plaque deposition measured by Florbetaben PET",
+      "value_type": "numeric",
+      "example_values": [
+        "0.8",
+        "1.1",
+        "1.4",
+        "1.7"
+      ],
+      "unit": "SUVr",
+      "reference_range": {
+        "normal": "<1.1",
+        "positive": "\u22651.1",
+        "typical_range": "0.8-2.0"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Amyloid PET biomarker - used primarily at European sites"
+    },
+    {
+      "field_name": "ABETA",
+      "semantic_group": "quantitative-observation",
+      "description": "Cerebrospinal Fluid Amyloid Beta 1-42 - Concentration of A\u03b21-42 in CSF",
+      "meaning": "CSF amyloid beta 1-42 protein concentration",
+      "value_type": "numeric",
+      "example_values": [
+        "350",
+        "450",
+        "520",
+        "600"
+      ],
+      "unit": "pg/mL",
+      "reference_range": {
+        "normal": ">500",
+        "abnormal": "<500",
+        "severe": "<233"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "CSF biomarker - requires terminology mapping to LOINC panel"
+    },
+    {
+      "field_name": "TAU",
+      "semantic_group": "quantitative-observation",
+      "description": "Cerebrospinal Fluid Total Tau - Concentration of total tau protein in CSF",
+      "meaning": "CSF total tau concentration indicating neuronal damage",
+      "value_type": "numeric",
+      "example_values": [
+        "280",
+        "350",
+        "450",
+        "600"
+      ],
+      "unit": "pg/mL",
+      "reference_range": {
+        "normal": "<450",
+        "abnormal": ">450",
+        "typical_range": "200-1000"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "CSF neurodegeneration biomarker"
+    },
+    {
+      "field_name": "PTAU",
+      "semantic_group": "quantitative-observation",
+      "description": "Cerebrospinal Fluid Phosphorylated Tau - Concentration of p-tau181 in CSF",
+      "meaning": "CSF phosphorylated tau at threonine 181 - AD-specific tau pathology",
+      "value_type": "numeric",
+      "example_values": [
+        "45",
+        "60",
+        "85",
+        "120"
+      ],
+      "unit": "pg/mL",
+      "reference_range": {
+        "normal": "<80",
+        "abnormal": ">80",
+        "typical_range": "40-200"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_reason": "CSF AD-specific tau biomarker"
+    },
+    {
+      "field_name": "CDRSB",
+      "semantic_group": "assessment-instrument",
+      "description": "Clinical Dementia Rating Sum of Boxes - Global dementia severity measure",
+      "meaning": "Dementia severity score from CDR assessment",
+      "value_type": "numeric",
+      "example_values": [
+        "0",
+        "0.5",
+        "1.5",
+        "4.0",
+        "8.0"
+      ],
+      "reference_range": {
+        "normal": "0",
+        "questionable": "0.5",
+        "mild": "1-4",
+        "moderate": "5-9",
+        "severe": "10-18"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Clinical assessment instrument requiring LOINC mapping"
+    },
+    {
+      "field_name": "ADAS11",
+      "semantic_group": "assessment-instrument",
+      "description": "Alzheimer's Disease Assessment Scale - Cognitive Subscale (11-item)",
+      "meaning": "Cognitive assessment score - 11-item version",
+      "value_type": "numeric",
+      "example_values": [
+        "5",
+        "12",
+        "18",
+        "25",
+        "32"
+      ],
+      "unit": "score",
+      "reference_range": {
+        "normal": "<10",
+        "mild": "10-15",
+        "moderate": "16-25",
+        "severe": ">25"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Standard cognitive assessment instrument"
+    },
+    {
+      "field_name": "ADAS13",
+      "semantic_group": "assessment-instrument",
+      "description": "Alzheimer's Disease Assessment Scale - Cognitive Subscale (13-item)",
+      "meaning": "Cognitive assessment score - 13-item extended version",
+      "value_type": "numeric",
+      "example_values": [
+        "8",
+        "15",
+        "25",
+        "40",
+        "55"
+      ],
+      "unit": "score",
+      "reference_range": {
+        "normal": "<15",
+        "mild": "15-25",
+        "moderate": "25-40",
+        "severe": ">40"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Standard cognitive assessment instrument"
+    },
+    {
+      "field_name": "ADASQ4",
+      "semantic_group": "assessment-instrument",
+      "description": "ADAS-Cog Delayed Word Recall - Delayed recall component of ADAS-Cog",
+      "meaning": "Episodic memory test - delayed word recall",
+      "value_type": "numeric",
+      "example_values": [
+        "0",
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "unit": "words",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ADAS-Cog assessment"
+    },
+    {
+      "field_name": "MMSE",
+      "semantic_group": "assessment-instrument",
+      "description": "Mini-Mental State Examination - Brief 30-point cognitive screening test",
+      "meaning": "Global cognitive function screening score",
+      "value_type": "numeric",
+      "possible_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "example_values": [
+        "28",
+        "25",
+        "22",
+        "18",
+        "15"
+      ],
+      "reference_range": {
+        "normal": "24-30",
+        "mci": "18-23",
+        "moderate": "10-17",
+        "severe": "<10"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Standard cognitive screening instrument"
+    },
+    {
+      "field_name": "RAVLT_immediate",
+      "semantic_group": "assessment-instrument",
+      "description": "Rey Auditory Verbal Learning Test Immediate Recall - Sum across 5 trials",
+      "meaning": "Immediate verbal learning and memory capacity",
+      "value_type": "numeric",
+      "example_values": [
+        "25",
+        "35",
+        "45",
+        "55",
+        "65"
+      ],
+      "unit": "words",
+      "reference_range": {
+        "normal": "35-50",
+        "mci": "20-35",
+        "ad": "<25"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Neuropsychological assessment instrument"
+    },
+    {
+      "field_name": "RAVLT_learning",
+      "semantic_group": "assessment-instrument",
+      "description": "Rey Auditory Verbal Learning Test Learning - Difference between Trial 5 and Trial 1",
+      "meaning": "Learning slope across repeated trials",
+      "value_type": "numeric",
+      "example_values": [
+        "2",
+        "5",
+        "8",
+        "10",
+        "12"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of RAVLT assessment"
+    },
+    {
+      "field_name": "RAVLT_forgetting",
+      "semantic_group": "assessment-instrument",
+      "description": "Rey Auditory Verbal Learning Test Forgetting - Difference between Trial 5 and delayed recall",
+      "meaning": "Retroactive interference - retention over delay",
+      "value_type": "numeric",
+      "example_values": [
+        "-2",
+        "0",
+        "3",
+        "5",
+        "8"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of RAVLT assessment"
+    },
+    {
+      "field_name": "RAVLT_perc_forgetting",
+      "semantic_group": "assessment-instrument",
+      "description": "Rey Auditory Verbal Learning Test Percent Forgetting - Percentage forgotten after delay",
+      "meaning": "Proportional forgetting rate",
+      "value_type": "numeric",
+      "example_values": [
+        "10",
+        "20",
+        "35",
+        "50",
+        "65"
+      ],
+      "unit": "percent",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of RAVLT assessment"
+    },
+    {
+      "field_name": "LDELTOTAL",
+      "semantic_group": "assessment-instrument",
+      "description": "Logical Memory Delayed Recall Total - Delayed recall from WMS-R Logical Memory",
+      "meaning": "Episodic memory - delayed story recall",
+      "value_type": "numeric",
+      "example_values": [
+        "5",
+        "8",
+        "12",
+        "15",
+        "18"
+      ],
+      "unit": "score",
+      "reference_range": {
+        "normal": ">12",
+        "borderline": "8-12",
+        "impaired": "<8"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Neuropsychological memory assessment"
+    },
+    {
+      "field_name": "DIGITSCOR",
+      "semantic_group": "assessment-instrument",
+      "description": "Digit Symbol Substitution Score - WAIS-R Digit Symbol subtest",
+      "meaning": "Processing speed, attention, and executive function",
+      "value_type": "numeric",
+      "example_values": [
+        "35",
+        "45",
+        "55",
+        "65",
+        "75"
+      ],
+      "unit": "score",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Neuropsychological assessment - processing speed"
+    },
+    {
+      "field_name": "TRABSCOR",
+      "semantic_group": "assessment-instrument",
+      "description": "Trail Making Test Part B Time - Time to complete TMT Part B",
+      "meaning": "Executive function and mental flexibility",
+      "value_type": "numeric",
+      "example_values": [
+        "45",
+        "75",
+        "120",
+        "180",
+        "240"
+      ],
+      "unit": "seconds",
+      "reference_range": {
+        "normal": "<60",
+        "mild_impairment": "60-120",
+        "moderate": "120-180",
+        "severe": ">180"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Neuropsychological assessment - executive function"
+    },
+    {
+      "field_name": "FAQ",
+      "semantic_group": "assessment-instrument",
+      "description": "Functional Activities Questionnaire - 10-item informant-based functional assessment",
+      "meaning": "Instrumental activities of daily living",
+      "value_type": "numeric",
+      "example_values": [
+        "0",
+        "5",
+        "12",
+        "20",
+        "28"
+      ],
+      "reference_range": {
+        "normal": "0",
+        "mild": "1-5",
+        "moderate": "6-20",
+        "severe": "21-30"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Functional assessment instrument"
+    },
+    {
+      "field_name": "MOCA",
+      "semantic_group": "assessment-instrument",
+      "description": "Montreal Cognitive Assessment - Brief 30-point MCI screening test",
+      "meaning": "Cognitive screening for mild impairment",
+      "value_type": "numeric",
+      "possible_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "example_values": [
+        "28",
+        "25",
+        "22",
+        "18",
+        "15"
+      ],
+      "reference_range": {
+        "normal": "26-30",
+        "mci": "18-25",
+        "moderate": "10-17",
+        "severe": "<10"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Cognitive screening instrument"
+    },
+    {
+      "field_name": "EcogPtMem",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Participant Memory - Self-rating for memory tasks",
+      "meaning": "Self-perceived everyday memory function",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0"
+      ],
+      "reference_range": {
+        "no_change": "1.0",
+        "mild": "1.5-2.0",
+        "moderate": "2.5-3.0",
+        "marked": "3.5-4.0"
+      },
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Functional cognition questionnaire",
+      "suggested_loinc_code": "89286-9",
+      "suggested_loinc_display": "Memory panel [ECog]"
+    },
+    {
+      "field_name": "EcogPtLang",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Participant Language - Self-rating for language tasks",
+      "meaning": "Self-perceived everyday language function",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89287-7",
+      "suggested_loinc_display": "Language panel [ECog]"
+    },
+    {
+      "field_name": "EcogPtVisspat",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Participant Visuospatial - Self-rating for visuospatial tasks",
+      "meaning": "Self-perceived visuospatial abilities",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89288-5",
+      "suggested_loinc_display": "Visual-spatial and perceptual abilities panel [ECog]"
+    },
+    {
+      "field_name": "EcogPtPlan",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Participant Planning - Self-rating for planning tasks",
+      "meaning": "Self-perceived planning abilities",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89289-3",
+      "suggested_loinc_display": "Executive functioning: planning panel [ECog]"
+    },
+    {
+      "field_name": "EcogPtOrgan",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Participant Organization - Self-rating for organizational tasks",
+      "meaning": "Self-perceived organizational abilities",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89290-1",
+      "suggested_loinc_display": "Executive functioning: organization panel [ECog]"
+    },
+    {
+      "field_name": "EcogPtDivatt",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Participant Divided Attention - Self-rating for divided attention",
+      "meaning": "Self-perceived divided attention abilities",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89285-1",
+      "suggested_loinc_display": "Executive functioning: divided attention panel [ECog]"
+    },
+    {
+      "field_name": "EcogPtTotal",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Participant Total Score - Sum of all participant-rated ECog domains",
+      "meaning": "Overall self-perceived everyday cognitive function",
+      "value_type": "numeric",
+      "example_values": [
+        "8",
+        "12",
+        "18",
+        "24",
+        "30"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Composite ECog score",
+      "suggested_loinc_code": "89133-3",
+      "suggested_loinc_display": "Everyday Cognition - Participant Self Report Form [ECog]"
+    },
+    {
+      "field_name": "EcogSPMem",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Study Partner Memory - Informant rating of participant memory",
+      "meaning": "Study partner-rated everyday memory function",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Informant-rated ECog",
+      "suggested_loinc_code": "89297-6",
+      "suggested_loinc_display": "Memory panel [ECog.Partner]"
+    },
+    {
+      "field_name": "EcogSPLang",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Study Partner Language - Informant rating of participant language",
+      "meaning": "Study partner-rated everyday language function",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89296-8",
+      "suggested_loinc_display": "Language panel [ECog.Partner]"
+    },
+    {
+      "field_name": "EcogSPVisspat",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Study Partner Visuospatial - Informant rating of participant visuospatial",
+      "meaning": "Study partner-rated visuospatial abilities",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89295-0",
+      "suggested_loinc_display": "Visual-spatial and perceptual abilities panel [ECog.Partner]"
+    },
+    {
+      "field_name": "EcogSPPlan",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Study Partner Planning - Informant rating of participant planning",
+      "meaning": "Study partner-rated planning abilities",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89294-3",
+      "suggested_loinc_display": "Executive functioning: planning panel [ECog.Partner]"
+    },
+    {
+      "field_name": "EcogSPOrgan",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Study Partner Organization - Informant rating of participant organization",
+      "meaning": "Study partner-rated organizational abilities",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89293-5",
+      "suggested_loinc_display": "Executive functioning: organization panel [ECog.Partner]"
+    },
+    {
+      "field_name": "EcogSPDivatt",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Study Partner Divided Attention - Informant rating of divided attention",
+      "meaning": "Study partner-rated divided attention",
+      "value_type": "numeric",
+      "possible_values": [
+        1.0,
+        1.25,
+        1.333,
+        1.5,
+        1.667,
+        1.75,
+        2.0,
+        2.25,
+        2.333,
+        2.5,
+        2.667,
+        2.75,
+        3.0,
+        3.25,
+        3.333,
+        3.5,
+        3.667,
+        3.75,
+        4.0
+      ],
+      "example_values": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Sub-component of ECog",
+      "suggested_loinc_code": "89298-4",
+      "suggested_loinc_display": "Executive functioning: divided attention panel [ECog.Partner]"
+    },
+    {
+      "field_name": "EcogSPTotal",
+      "semantic_group": "assessment-instrument",
+      "description": "Everyday Cognition - Study Partner Total Score - Sum of all study partner-rated ECog domains",
+      "meaning": "Overall study partner-perceived everyday cognitive function",
+      "value_type": "numeric",
+      "example_values": [
+        "8",
+        "12",
+        "18",
+        "24",
+        "30"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Composite ECog score",
+      "suggested_loinc_code": "89090-5",
+      "suggested_loinc_display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]"
+    },
+    {
+      "field_name": "FLDSTRENG",
+      "semantic_group": "metadata",
+      "description": "MRI Field Strength - The magnetic field strength of the MRI scanner",
+      "meaning": "MRI scanner field strength (Tesla)",
+      "value_type": "categorical",
+      "possible_values": [
+        "1.5 Tesla",
+        "3 Tesla"
+      ],
+      "example_values": [
+        "3 Tesla",
+        "1.5 Tesla"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Scanner metadata - no terminology mapping"
+    },
+    {
+      "field_name": "FSVERSION",
+      "semantic_group": "metadata",
+      "description": "FreeSurfer Version - The version of FreeSurfer used to process MRI images",
+      "meaning": "FreeSurfer software version",
+      "value_type": "categorical",
+      "possible_values": [
+        "FreeSurfer 4.3",
+        "FreeSurfer 5.1",
+        "FreeSurfer 6.0"
+      ],
+      "example_values": [
+        "FreeSurfer 6.0",
+        "FreeSurfer 5.1"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Software version - no terminology mapping"
+    },
+    {
+      "field_name": "IMAGEUID",
+      "semantic_group": "identifier",
+      "description": "Image Unique Identifier - Unique identifier for each MRI or PET image",
+      "meaning": "Image database identifier",
+      "value_type": "numeric",
+      "example_values": [
+        "123456",
+        "789012"
+      ],
+      "system_hint": null,
+      "target_value_set": null,
+      "agent_path": false,
+      "agent_reason": "Not mappable - internal image ID"
+    },
+    {
+      "field_name": "Ventricles",
+      "semantic_group": "quantitative-observation",
+      "description": "Ventricles Volume (UCSF) - Volume of cerebral ventricles from MRI",
+      "meaning": "Cerebral ventricular volume",
+      "value_type": "numeric",
+      "example_values": [
+        "25000",
+        "35000",
+        "45000"
+      ],
+      "unit": "mm\u00b3",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Brain volume measurement"
+    },
+    {
+      "field_name": "Hippocampus",
+      "semantic_group": "quantitative-observation",
+      "description": "Hippocampus Volume (UCSF) - Volume of hippocampus from MRI",
+      "meaning": "Hippocampal volume - key AD atrophy marker",
+      "value_type": "numeric",
+      "example_values": [
+        "6000",
+        "7500",
+        "9000"
+      ],
+      "unit": "mm\u00b3",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Brain structure volume - key biomarker"
+    },
+    {
+      "field_name": "WholeBrain",
+      "semantic_group": "quantitative-observation",
+      "description": "Whole Brain Volume (UCSF) - Total brain volume from MRI",
+      "meaning": "Total brain volume",
+      "value_type": "numeric",
+      "example_values": [
+        "1100000",
+        "1250000",
+        "1400000"
+      ],
+      "unit": "mm\u00b3",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Brain volume measurement"
+    },
+    {
+      "field_name": "Entorhinal",
+      "semantic_group": "quantitative-observation",
+      "description": "Entorhinal Cortex Volume (UCSF) - Volume of entorhinal cortex from MRI",
+      "meaning": "Entorhinal cortical volume - early AD atrophy region",
+      "value_type": "numeric",
+      "example_values": [
+        "2500",
+        "3200",
+        "4000"
+      ],
+      "unit": "mm\u00b3",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Brain structure volume - early AD marker"
+    },
+    {
+      "field_name": "Fusiform",
+      "semantic_group": "quantitative-observation",
+      "description": "Fusiform Gyrus Volume (UCSF) - Volume of fusiform gyrus from MRI",
+      "meaning": "Fusiform gyrus volume",
+      "value_type": "numeric",
+      "example_values": [
+        "15000",
+        "18000",
+        "22000"
+      ],
+      "unit": "mm\u00b3",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Brain structure volume"
+    },
+    {
+      "field_name": "MidTemp",
+      "semantic_group": "quantitative-observation",
+      "description": "Middle Temporal Gyrus Volume (UCSF) - Volume of middle temporal gyrus from MRI",
+      "meaning": "Middle temporal gyrus volume",
+      "value_type": "numeric",
+      "example_values": [
+        "18000",
+        "22000",
+        "26000"
+      ],
+      "unit": "mm\u00b3",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Brain structure volume"
+    },
+    {
+      "field_name": "ICV",
+      "semantic_group": "quantitative-observation",
+      "description": "Intracranial Volume - Total volume of intracranial cavity",
+      "meaning": "Total intracranial volume for normalization",
+      "value_type": "numeric",
+      "example_values": [
+        "1300000",
+        "1450000",
+        "1600000"
+      ],
+      "unit": "mm\u00b3",
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Reference volume for brain normalization"
+    },
+    {
+      "field_name": "DX",
+      "semantic_group": "diagnosis",
+      "description": "Diagnosis - Current clinical diagnosis at the time of visit",
+      "meaning": "Clinical diagnosis classification",
+      "value_type": "categorical",
+      "possible_values": [
+        "CN",
+        "SMC",
+        "EMCI",
+        "LMCI",
+        "AD"
+      ],
+      "example_values": [
+        "CN",
+        "EMCI",
+        "LMCI",
+        "AD"
+      ],
+      "system_hint": "http://snomed.info/sct",
+      "target_value_set": "http://snomed.info/sct?fhir_vs",
+      "agent_path": false,
+      "agent_reason": "Fixed diagnosis values - use SNOMED CT"
+    },
+    {
+      "field_name": "mPACCdigit",
+      "semantic_group": "assessment-instrument",
+      "description": "Modified Preclinical Alzheimer's Cognitive Composite with Digit Symbol",
+      "meaning": "Preclinical AD cognitive composite score using Digit Symbol",
+      "value_type": "numeric",
+      "example_values": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Cognitive composite assessment"
+    },
+    {
+      "field_name": "mPACCtrailsB",
+      "semantic_group": "assessment-instrument",
+      "description": "Modified Preclinical Alzheimer's Cognitive Composite with Trails B",
+      "meaning": "Preclinical AD cognitive composite score using Trail Making B",
+      "value_type": "numeric",
+      "example_values": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "system_hint": "http://loinc.org",
+      "target_value_set": "http://loinc.org/vs",
+      "agent_path": true,
+      "agent_reason": "Cognitive composite assessment"
+    }
+  ],
+  "semantic_groups": {
+    "identifier": {
+      "agent_path": false,
+      "reason": "Internal ADNI identifiers not mappable to standard terminology"
+    },
+    "demographic": {
+      "agent_path": false,
+      "reason": "Use HL7 administrative code systems (gender, ethnicity, race, marital status)"
+    },
+    "diagnosis": {
+      "agent_path": false,
+      "reason": "Fixed vocabulary - use SNOMED CT for DX, protocol codes are ADNI-specific"
+    },
+    "genetic": {
+      "agent_path": false,
+      "reason": "Fixed APOE allele values (0, 1, 2)"
+    },
+    "metadata": {
+      "agent_path": false,
+      "reason": "Scanner and software metadata not mappable"
+    },
+    "quantitative-observation": {
+      "agent_path": true,
+      "value_sets": [
+        "http://loinc.org/vs"
+      ],
+      "reason": "Biomarker measurements requiring LOINC panel mapping"
+    },
+    "assessment-instrument": {
+      "agent_path": true,
+      "value_sets": [
+        "http://loinc.org/vs"
+      ],
+      "reason": "Standardized instruments requiring LOINC mapping"
+    }
+  },
+  "summary": {
+    "total_fields": 62,
+    "agent_path_fields": 36,
+    "deterministic_fields": 26
+  }
+}

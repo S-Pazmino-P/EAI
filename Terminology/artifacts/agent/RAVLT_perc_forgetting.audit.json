@@ -1,0 +1,44 @@
+{
+  "field": "RAVLT_perc_forgetting",
+  "timestamp": "2026-08-17T18:21:43.294394Z",
+  "semantic_group": "",
+  "decision": "no_mapping",
+  "score": 0.0,
+  "reason": "No candidates found from terminology server",
+  "search_terms": [],
+  "expand_results": [
+    {
+      "term": "RAVLT Forgetting Rate",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Rey Auditory Verbal Learning Test Percent Forgetting",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Proportional Forgetting Rate RAVLT",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Percent Forgetting Delayed Recall",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "RAVLT_perc_forgetting",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    }
+  ],
+  "top_candidates": [],
+  "llm_evaluation": null,
+  "report": null
+}

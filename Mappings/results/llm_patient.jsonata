@@ -1,0 +1,24 @@
+[
+  {
+    "resourceType": "Patient",
+    "identifier": [
+      {
+        "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+        "type": { "text": "PTID" },
+        "value": $string($.PTID)
+      }
+    ],
+    "gender": $.PTGENDER = "Male" ? "male" : ($.PTGENDER = "Female" ? "female" : "unknown"),
+    "birthDate": ($exists($.EXAMDATE) and $exists($.AGE)) ? $string($number($substring($.EXAMDATE,0,4)) - $floor($.AGE)) : null,
+    "maritalStatus": $.PTMARRY != null ? {
+      "system": "http://snomed.info/sct",
+      "code": "179159001",
+      "display": $.PTMARRY
+    } : null,
+    "extension": [
+      ($exists($.PTETHCAT)) ? { "url": "#extension-PTETHCAT", "valueString": $.PTETHCAT } : null,
+      ($exists($.PTRACCAT)) ? { "url": "#extension-PTRACCAT", "valueString": $.PTRACCAT } : null,
+      ($exists($.PTEDUCAT)) ? { "url": "#extension-PTEDUCAT", "valueString": $.PTEDUCAT } : null
+    ][$exists($)]
+  }
+]

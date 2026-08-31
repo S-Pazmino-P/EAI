@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-pib",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:19:03.951794Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "PIB",
+          "target": [
+            {
+              "code": "LP428286-1",
+              "display": "Amyloid plaques probability score"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

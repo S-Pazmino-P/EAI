@@ -1,0 +1,11 @@
+[
+  ($.ADAS11 != null and $string($.ADAS11) != "") ? [{
+    "resourceType": "Observation",
+    "identifier": [{ "system": "http://adni.example.org/fhir/identifier/observation", "value": $string($.PTID) & "-" & $.VISCODE & "-ADAS11" }],
+    "code": { "coding": [{"system": "http://snomed.info/sct", "code": "714360001"}], "text": "ADAS11" },
+    "subject": { "identifier": { "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": { "text": "PTID" }, "value": $string($.PTID) } },
+    "encounter": { "identifier": { "system": "http://adni.example.org/fhir/identifier/encounter", "value": $string($.PTID) & "-" & $.VISCODE } },
+    "effectiveDateTime": $.EXAMDATE,
+    "valueQuantity": { "value": $number($replace($string($.ADAS11), /^(<=|>=|<|>)\s*/, "")) }
+  }] : []
+]

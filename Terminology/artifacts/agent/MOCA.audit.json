@@ -1,0 +1,228 @@
+{
+  "field": "MOCA",
+  "timestamp": "2026-08-17T18:22:46.771628Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "Mild Cognitive Impairment Screening",
+    "Montreal Cognitive Assessment Brief",
+    "30-point MCI Test Results",
+    "Cognitive Function Screening Tool"
+  ],
+  "expand_results": [
+    {
+      "term": "Mild Cognitive Impairment Screening",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP128695-6",
+          "display": "Cognitive impairment",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15213-4",
+          "display": "Cognitive impairment",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "66610-7",
+          "display": "Cognitive impairment [Reported]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP147219-2",
+          "display": "Perceived cognitive impairments",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP443966-9",
+          "display": "Symptom Impact Screening",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "70849-5",
+          "display": "Perceived cognitive impairments [FACIT]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP443968-5",
+          "display": "Date of symptom impact screening",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP443967-7",
+          "display": "Was a symptom impact screening completed",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "106685-1",
+          "display": "Symptom Impact Screening during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "106684-4",
+          "display": "Was a symptom impact screening completed during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 20
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "LA15213-4",
+        "display": "Cognitive impairment",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA15213-4",
+        "display": "Cognitive impairment",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA15213-4",
+      "display": "Cognitive impairment",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "66610-7",
+        "display": "Cognitive impairment [Reported]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "66610-7",
+        "display": "Cognitive impairment [Reported]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "66610-7",
+      "display": "Cognitive impairment [Reported]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "70849-5",
+        "display": "Perceived cognitive impairments [FACIT]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "70849-5",
+        "display": "Perceived cognitive impairments [FACIT]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "70849-5",
+      "display": "Perceived cognitive impairments [FACIT]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "106685-1",
+        "display": "Symptom Impact Screening during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "106685-1",
+        "display": "Symptom Impact Screening during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "106685-1",
+      "display": "Symptom Impact Screening during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "106684-4",
+        "display": "Was a symptom impact screening completed during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "106684-4",
+        "display": "Was a symptom impact screening completed during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "106684-4",
+      "display": "Was a symptom impact screening completed during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "LA15213-4",
+        "display": "Cognitive impairment",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures cognitive impairment, but LOINC code does not specify method or interpretation.",
+        "perfect_fit": false
+      },
+      {
+        "code": "66610-7",
+        "display": "Cognitive impairment [Reported]",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures cognitive impairment, and LOINC code specifies reported method.",
+        "perfect_fit": false
+      },
+      {
+        "code": "70849-5",
+        "display": "Perceived cognitive impairments [FACIT]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures perceived cognitive impairment, which is not the same as actual screening.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "66610-7",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Method compatibility",
+        "Semantic match"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Method compatibility",
+      "Semantic match"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

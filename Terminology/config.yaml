@@ -1,0 +1,50 @@
+ollama:
+  base_url: "http://localhost:11434"
+  model: "llama3.1:latest"
+  temperature: 0.0
+  format_json: true
+  max_retries: 3
+
+terminology_server:
+  base_url: "" # set your real Ontoserver URL in config.local.yaml (gitignored)
+  client_cert_path: ""    # set your real path in config.local.yaml (gitignored)
+  client_key_path: ""     # set your real path in config.local.yaml (gitignored)
+  client_key_passphrase_env: ""
+  ca_bundle_path: "/etc/ssl/certs/ca-certificates.crt"
+  timeout_seconds: 15
+  max_retries: 3
+  backoff_seconds: 2
+
+identifiers:
+  ptid_system: "http://adni.example.org/fhir/sid/ptid"
+  rid_system: "http://adni.example.org/fhir/sid/rid"
+  visit_system: "http://adni.example.org/fhir/sid/visit"
+  site_system: "http://adni.example.org/fhir/sid/site"
+  observation_system: "http://adni.example.org/fhir/sid/observation"
+
+extensions:
+  base_url: "http://adni.example.org/fhir/StructureDefinition"
+
+codesystem:
+  adni_terms_url: "http://adni.example.org/fhir/CodeSystem/adni-terms"
+  adni_terms_version: "1.0.0"
+
+terminology_targets:
+  condition_code_system: "http://snomed.info/sct"
+  observation_code_system: "http://loinc.org"
+
+paths:
+  adni_schema: "schema.json"
+  fhir_schema_dir: "schemas/fhir"
+  observation_units: "config/observation_units.json"
+  sample_rows: "adnimerge_small.csv"
+  artifacts_dir: "artifacts"
+  output_dir: "output"
+
+fhir_server:
+  base_url: "http://localhost:8080/fhir"
+  timeout_seconds: 30
+
+validation:
+  max_jsonata_repair_attempts: 5
+  max_fhir_repair_attempts: 5

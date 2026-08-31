@@ -1,0 +1,246 @@
+{
+  "field": "RAVLT_immediate",
+  "timestamp": "2026-08-17T18:21:11.877233Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.8,
+  "reason": "High confidence match (score: 0.80)",
+  "search_terms": [
+    "RAVLT Immediate Recall",
+    "Rey Auditory Verbal Learning Test Sum",
+    "Immediate Verbal Learning Capacity",
+    "Verbal Memory Capacity Assessment"
+  ],
+  "expand_results": [
+    {
+      "term": "RAVLT Immediate Recall",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Rey Auditory Verbal Learning Test Sum",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Immediate Verbal Learning Capacity",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Verbal Memory Capacity Assessment",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP74875-3",
+          "display": "Functional capacity assessment",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "106731-3",
+          "display": "Verbal memory count",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP444053-5",
+          "display": "Verbal memory count",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "62772-9",
+          "display": "PhenX - verbal memory protocol 130801",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "46634-2",
+          "display": "Functional capacity assessment [RFC]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP112357-1",
+          "display": "PhenX measure - verbal memory",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "54602-8",
+          "display": "Understanding verbal content during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP112358-9",
+          "display": "PhenX - verbal memory protocol 130801",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "95743-1",
+          "display": "Memory/recall ability during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "57217-2",
+          "display": "Understanding of verbal content during assessment period [CMS Assessment]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 36
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "106731-3",
+        "display": "Verbal memory count",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "106731-3",
+        "display": "Verbal memory count",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "106731-3",
+      "display": "Verbal memory count",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "62772-9",
+        "display": "PhenX - verbal memory protocol 130801",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "62772-9",
+        "display": "PhenX - verbal memory protocol 130801",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "62772-9",
+      "display": "PhenX - verbal memory protocol 130801",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "46634-2",
+        "display": "Functional capacity assessment [RFC]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "46634-2",
+        "display": "Functional capacity assessment [RFC]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "46634-2",
+      "display": "Functional capacity assessment [RFC]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "54602-8",
+        "display": "Understanding verbal content during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "54602-8",
+        "display": "Understanding verbal content during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "54602-8",
+      "display": "Understanding verbal content during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "95743-1",
+        "display": "Memory/recall ability during assessment period [CMS Assessment]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "95743-1",
+        "display": "Memory/recall ability during assessment period [CMS Assessment]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "95743-1",
+      "display": "Memory/recall ability during assessment period [CMS Assessment]",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "106731-3",
+        "display": "Verbal memory count",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures immediate verbal learning and memory capacity, same general category as ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "62772-9",
+        "display": "PhenX - verbal memory protocol 130801",
+        "score": 0.8,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures immediate verbal learning and memory capacity, same general category as ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "46634-2",
+        "display": "Functional capacity assessment [RFC]",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Measures functional capacity, not immediate verbal learning and memory capacity.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "106731-3",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Measures immediate verbal learning and memory capacity",
+        "Same general category as ADNI field"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Measures immediate verbal learning and memory capacity",
+      "Same general category as ADNI field"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

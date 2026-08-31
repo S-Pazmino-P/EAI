@@ -1,0 +1,79 @@
+[
+  ($.RAVLT_learning != null and $string($.RAVLT_learning) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-RAVLT_learning"}
+      ],
+      "code": { "coding": [{"system": "http://snomed.info/sct", "code": "311478003"}], "text": "RAVLT_learning" },
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID} },
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE } },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": { "value": $number($.RAVLT_learning) }
+    } : [],
+  
+  ($.RAVLT_forgetting != null and $string($.RAVLT_forgetting) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-RAVLT_forgetting"}
+      ],
+      "code": { "coding": [{"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "RAVLT-forgetting"}], "text": "RAVLT_forgetting" },
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID} },
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE } },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": { "value": $number($.RAVLT_forgetting) }
+    } : [],
+  
+  ($.RAVLT_perc_forgetting != null and $string($.RAVLT_perc_forgetting) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-RAVLT_perc_forgetting"}
+      ],
+      "code": { "coding": [{"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "RAVLT-perc-forgetting"}], "text": "RAVLT_perc_forgetting" },
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID} },
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE } },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": { "value": $number($.RAVLT_perc_forgetting) }
+    } : [],
+  
+  ($.LDELTOTAL != null and $string($.LDELTOTAL) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-LDELTOTAL"}
+      ],
+      "code": { "coding": [{"system": "http://snomed.info/sct", "code": "273921009"}], "text": "LDELTOTAL" },
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID} },
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE } },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": { "value": $number($.LDELTOTAL) }
+    } : [],
+  
+  ($.DIGITSCOR != null and $string($.DIGITSCOR) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-DIGITSCOR"}
+      ],
+      "code": { "coding": [{"system": "http://snomed.info/sct", "code": "273857000"}], "text": "DIGITSCOR" },
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID} },
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE } },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": { "value": $number($.DIGITSCOR) }
+    } : [],
+  
+  ($.TRABSCOR != null and $string($.TRABSCOR) != "") ? 
+    {
+      "resourceType": "Observation",
+      "identifier": [
+        {"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-TRABSCOR"}
+      ],
+      "code": { "coding": [{"system": "http://snomed.info/sct", "code": "273882000"}], "text": "TRABSCOR" },
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID} },
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE } },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": { "value": $number($.TRABSCOR) }
+    } : []
+]

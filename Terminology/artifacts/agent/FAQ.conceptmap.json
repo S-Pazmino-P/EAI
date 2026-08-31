@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-faq",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:22:33.833170Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "FAQ",
+          "target": [
+            {
+              "code": "95028-7",
+              "display": "FASI v1.0 - Instrumental Activities of Daily Living [CMS Assessment]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

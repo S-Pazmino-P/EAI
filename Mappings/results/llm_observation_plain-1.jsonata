@@ -1,0 +1,175 @@
+[
+  ($.APOE4 != null and $string($.APOE4) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{ 
+        "system": "http://adni.example.org/fhir/identifier/observation", 
+        "value": $.PTID & "-" & $.VISCODE & "-APOE4" 
+      }],
+      "code": { 
+        "coding": [ {"system": "http://snomed.info/sct", "code": "1396588002"} ],
+        "text": "APOE4"
+      },
+      "subject": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", 
+          "type": { "text": "PTID" }, 
+          "value": $.PTID
+        }
+      },
+      "encounter": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/identifier/encounter", 
+          "value": $.PTID & "-" & $.VISCODE 
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.APOE4)}
+    }
+  ] : [],
+  
+  ($.FDG != null and $string($.FDG) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{ 
+        "system": "http://adni.example.org/fhir/identifier/observation", 
+        "value": $.PTID & "-" & $.VISCODE & "-FDG" 
+      }],
+      "code": { 
+        "coding": [ {"system": "http://loinc.org", "code": "86976-8"} ],
+        "text": "FDG"
+      },
+      "subject": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", 
+          "type": { "text": "PTID" }, 
+          "value": $.PTID
+        }
+      },
+      "encounter": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/identifier/encounter", 
+          "value": $.PTID & "-" & $.VISCODE 
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.FDG)}
+    }
+  ] : [],
+  
+  ($.PIB != null and $string($.PIB) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{ 
+        "system": "http://adni.example.org/fhir/identifier/observation", 
+        "value": $.PTID & "-" & $.VISCODE & "-PIB" 
+      }],
+      "code": { 
+        "coding": [ {"system": "http://loinc.org", "code": "87907-2"}, {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "PIB-SUVR-mean"} ],
+        "text": "PIB"
+      },
+      "subject": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", 
+          "type": { "text": "PTID" }, 
+          "value": $.PTID
+        }
+      },
+      "encounter": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/identifier/encounter", 
+          "value": $.PTID & "-" & $.VISCODE 
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.PIB)}
+    }
+  ] : [],
+  
+  ($.AV45 != null and $string($.AV45) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{ 
+        "system": "http://adni.example.org/fhir/identifier/observation", 
+        "value": $.PTID & "-" & $.VISCODE & "-AV45" 
+      }],
+      "code": { 
+        "coding": [ {"system": "http://loinc.org", "code": "87907-2"}, {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "AV45-SUVR-mean"} ],
+        "text": "AV45"
+      },
+      "subject": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", 
+          "type": { "text": "PTID" }, 
+          "value": $.PTID
+        }
+      },
+      "encounter": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/identifier/encounter", 
+          "value": $.PTID & "-" & $.VISCODE 
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.AV45)}
+    }
+  ] : [],
+  
+  ($.FBB != null and $string($.FBB) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{ 
+        "system": "http://adni.example.org/fhir/identifier/observation", 
+        "value": $.PTID & "-" & $.VISCODE & "-FBB" 
+      }],
+      "code": { 
+        "coding": [ {"system": "http://loinc.org", "code": "87907-2"}, {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "FBB-SUVR-mean"} ],
+        "text": "FBB"
+      },
+      "subject": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", 
+          "type": { "text": "PTID" }, 
+          "value": $.PTID
+        }
+      },
+      "encounter": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/identifier/encounter", 
+          "value": $.PTID & "-" & $.VISCODE 
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.FBB)}
+    }
+  ] : [],
+  
+  ($.CDRSB != null and $string($.CDRSB) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{ 
+        "system": "http://adni.example.org/fhir/identifier/observation", 
+        "value": $.PTID & "-" & $.VISCODE & "-CDRSB" 
+      }],
+      "code": { 
+        "coding": [ {"system": "http://loinc.org", "code": "72165-1"} ],
+        "text": "CDRSB"
+      },
+      "subject": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", 
+          "type": { "text": "PTID" }, 
+          "value": $.PTID
+        }
+      },
+      "encounter": { 
+        "identifier": { 
+          "system": "http://adni.example.org/fhir/identifier/encounter", 
+          "value": $.PTID & "-" & $.VISCODE 
+        }
+      },
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.CDRSB)}
+    }
+  ] : []
+]

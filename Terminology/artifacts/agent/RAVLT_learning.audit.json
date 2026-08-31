@@ -1,0 +1,231 @@
+{
+  "field": "RAVLT_learning",
+  "timestamp": "2026-08-17T18:21:26.668279Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "no_mapping",
+  "score": 0.3,
+  "reason": "Low confidence - no good match (score: 0.30)",
+  "search_terms": [
+    "RAVLT learning slope",
+    "Rey Auditory Verbal Learning Test difference",
+    "Trial 5 minus Trial 1 RAVLT",
+    "Learning across repeated trials RAVLT"
+  ],
+  "expand_results": [
+    {
+      "term": "RAVLT learning slope",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Rey Auditory Verbal Learning Test difference",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Trial 5 minus Trial 1 RAVLT",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP241989-5",
+          "display": "Able to hold position for 50S - trial 1",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "83152-9",
+          "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on foam surface",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "83148-7",
+          "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on solid surface",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "83150-3",
+          "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on foam surface",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "83146-1",
+          "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on solid surface",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "83154-5",
+          "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and in tandem stance and on solid surface",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP308704-8",
+          "display": "Able to hold position for 50S - trial 1^eyes closed+on foam surface",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP308705-5",
+          "display": "Able to hold position for 50S - trial 1^eyes closed+on solid surface",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP308706-3",
+          "display": "Able to hold position for 50S - trial 1^eyes open+on foam surface",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP308707-1",
+          "display": "Able to hold position for 50S - trial 1^eyes open+on solid surface",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 11
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "83152-9",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on foam surface",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "83152-9",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on foam surface",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "83152-9",
+      "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on foam surface",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "83148-7",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on solid surface",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "83148-7",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on solid surface",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "83148-7",
+      "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on solid surface",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "83150-3",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on foam surface",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "83150-3",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on foam surface",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "83150-3",
+      "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on foam surface",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "83146-1",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on solid surface",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "83146-1",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on solid surface",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "83146-1",
+      "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on solid surface",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "83154-5",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and in tandem stance and on solid surface",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "83154-5",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and in tandem stance and on solid surface",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "83154-5",
+      "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and in tandem stance and on solid surface",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "83152-9",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on foam surface",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures a different aspect of cognitive function, not learning slope across repeated trials.",
+        "perfect_fit": false
+      },
+      {
+        "code": "83148-7",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes closed and on solid surface",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures a different aspect of cognitive function, not learning slope across repeated trials.",
+        "perfect_fit": false
+      },
+      {
+        "code": "83150-3",
+        "display": "Able to hold position for 50 seconds - trial 1 [NIH Toolbox] --eyes open and on foam surface",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures a different aspect of cognitive function, not learning slope across repeated trials.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Different aspect of cognitive function",
+        "Not learning slope across repeated trials"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

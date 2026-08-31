@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "jsonata": "^2.2.2"
+  }
+}

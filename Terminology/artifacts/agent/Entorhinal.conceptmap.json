@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-entorhinal",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:26:36.958239Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "Entorhinal",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

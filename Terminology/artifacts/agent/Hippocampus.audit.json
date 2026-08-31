@@ -1,0 +1,212 @@
+{
+  "field": "Hippocampus",
+  "timestamp": "2026-08-17T18:26:11.579845Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "no_mapping",
+  "score": 0.3,
+  "reason": "Low confidence - no good match (score: 0.30)",
+  "search_terms": [
+    "Hippocampus Volume",
+    "Hippocampal Atrophy Marker",
+    "MRI Hippocampus Measurement",
+    "Hippocampal Volume Loss"
+  ],
+  "expand_results": [
+    {
+      "term": "Hippocampus Volume",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Hippocampal Atrophy Marker",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "MRI Hippocampus Measurement",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Hippocampal Volume Loss",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "81661-1",
+          "display": "Blood loss [Volume] Measured",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "8717-1",
+          "display": "Surgical operation note estimated blood loss [Volume]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "9110-8",
+          "display": "Blood loss.total intraoperative [Volume] Estimated",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14995-7",
+          "display": "Slight loss of expression, diction, and/or volume",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "9109-0",
+          "display": "Blood loss.total intraoperative [Volume] Cell saver",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 5
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "81661-1",
+        "display": "Blood loss [Volume] Measured",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "81661-1",
+        "display": "Blood loss [Volume] Measured",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP421763-6"
+        }
+      },
+      "score": 0.7,
+      "code": "81661-1",
+      "display": "Blood loss [Volume] Measured",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "8717-1",
+        "display": "Surgical operation note estimated blood loss [Volume]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "8717-1",
+        "display": "Surgical operation note estimated blood loss [Volume]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "8717-1",
+      "display": "Surgical operation note estimated blood loss [Volume]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "9110-8",
+        "display": "Blood loss.total intraoperative [Volume] Estimated",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "9110-8",
+        "display": "Blood loss.total intraoperative [Volume] Estimated",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP421764-4"
+        }
+      },
+      "score": 0.7,
+      "code": "9110-8",
+      "display": "Blood loss.total intraoperative [Volume] Estimated",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA14995-7",
+        "display": "Slight loss of expression, diction, and/or volume",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA14995-7",
+        "display": "Slight loss of expression, diction, and/or volume",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA14995-7",
+      "display": "Slight loss of expression, diction, and/or volume",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "9109-0",
+        "display": "Blood loss.total intraoperative [Volume] Cell saver",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "9109-0",
+        "display": "Blood loss.total intraoperative [Volume] Cell saver",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP421764-4"
+        }
+      },
+      "score": 0.7,
+      "code": "9109-0",
+      "display": "Blood loss.total intraoperative [Volume] Cell saver",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "81661-1",
+        "display": "Blood loss [Volume] Measured",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 1 measures blood loss, which is not the same as hippocampal volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "8717-1",
+        "display": "Surgical operation note estimated blood loss [Volume]",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 2 measures surgical operation note estimated blood loss, which is not the same as hippocampal volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "9110-8",
+        "display": "Blood loss.total intraoperative [Volume] Estimated",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "Candidate 3 measures blood loss, which is not the same as hippocampal volume.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Semantic match: LOW",
+        "Method compatibility: FALSE"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

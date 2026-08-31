@@ -1,0 +1,198 @@
+{
+  "field": "EcogPtMem",
+  "timestamp": "2026-08-17T18:22:59.761949Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.85,
+  "reason": "High confidence match (score: 0.85)",
+  "search_terms": [
+    "Everyday Cognition Memory",
+    "Participant Self-Rated Memory",
+    "Memory Function Assessment",
+    "Self-Reported Everyday Memory"
+  ],
+  "expand_results": [
+    {
+      "term": "Everyday Cognition Memory",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP267185-9",
+          "display": "Everyday Cognition - Participant Self Report Form",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP267278-2",
+          "display": "Everyday Cognition - Study Partner Report Form",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89133-3",
+          "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89090-5",
+          "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 4
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89286-9",
+        "display": "Memory panel [ECog]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89286-9",
+        "display": "Memory panel [ECog]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89286-9",
+      "display": "Memory panel [ECog]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89133-3",
+        "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89133-3",
+        "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "89133-3",
+      "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "89090-5",
+      "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP267185-9",
+        "display": "Everyday Cognition - Participant Self Report Form",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP267185-9",
+        "display": "Everyday Cognition - Participant Self Report Form",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP267185-9",
+      "display": "Everyday Cognition - Participant Self Report Form",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP267278-2",
+        "display": "Everyday Cognition - Study Partner Report Form",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP267278-2",
+      "display": "Everyday Cognition - Study Partner Report Form",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89286-9",
+        "display": "Memory panel [ECog]",
+        "score": 0.85,
+        "semantic_match": "HIGH",
+        "method_compatible": true,
+        "rationale": "Measures self-perceived everyday memory function, same general category as ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "89133-3",
+        "display": "Everyday Cognition - Participant Self Report Form [ECog]",
+        "score": 0.7,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures self-reported everyday cognition, similar but not identical to ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "89090-5",
+        "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]",
+        "score": 0.7,
+        "semantic_match": "MEDIUM",
+        "method_compatible": false,
+        "rationale": "Measures study partner's report of everyday cognition, different method from ADNI field.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": "89286-9",
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "HIGH",
+      "match_details": [
+        "Measures self-perceived everyday memory function",
+        "Same general category as ADNI field"
+      ],
+      "confidence": "MEDIUM",
+      "recommendation": "APPROVED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "HIGH",
+    "match_details": [
+      "Measures self-perceived everyday memory function",
+      "Same general category as ADNI field"
+    ],
+    "confidence": "MEDIUM",
+    "recommendation": "APPROVED"
+  }
+}

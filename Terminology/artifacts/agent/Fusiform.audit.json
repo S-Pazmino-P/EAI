@@ -1,0 +1,219 @@
+{
+  "field": "Fusiform",
+  "timestamp": "2026-08-17T18:26:49.916091Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "no_mapping",
+  "score": 0.3,
+  "reason": "Low confidence - no good match (score: 0.30)",
+  "search_terms": [
+    "Fusiform Gyrus Volume",
+    "MRI Fusiform Measure",
+    "Fusiform MRI Volume",
+    "Fusiform Gyrus Measurement"
+  ],
+  "expand_results": [
+    {
+      "term": "Fusiform Gyrus Volume",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "6082-2",
+          "display": "Codfish IgE Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "49099-5",
+          "display": "Codfish IgG Ab [Mass/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "6721-5",
+          "display": "Codfish IgG Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "56228-0",
+          "display": "Codfish IgG4 Ab [Mass/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "48224-0",
+          "display": "Codfish triggered leukotriene release [Mass/volume] by Leukocytes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "107840-1",
+          "display": "Codfish IgG Ab [Units/volume] in Serum or Plasma by Immunoassay",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "63473-3",
+          "display": "Codfish recombinant (rGad c) 1 IgE Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "97976-5",
+          "display": "Codfish recombinant (rGad c) 1 IgG4 Ab [Mass/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "7242-1",
+          "display": "Codfish triggered histamine release [Units/volume] in Blood",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "76604-8",
+          "display": "Serratia marcescens gyrB gene [#/volume] in XXX.body fluid by NAA with probe detection",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 11
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "6082-2",
+        "display": "Codfish IgE Ab [Units/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "6082-2",
+        "display": "Codfish IgE Ab [Units/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "6082-2",
+      "display": "Codfish IgE Ab [Units/volume] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "49099-5",
+        "display": "Codfish IgG Ab [Mass/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "49099-5",
+        "display": "Codfish IgG Ab [Mass/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "49099-5",
+      "display": "Codfish IgG Ab [Mass/volume] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "6721-5",
+        "display": "Codfish IgG Ab [Units/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "6721-5",
+        "display": "Codfish IgG Ab [Units/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "6721-5",
+      "display": "Codfish IgG Ab [Units/volume] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "56228-0",
+        "display": "Codfish IgG4 Ab [Mass/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "56228-0",
+        "display": "Codfish IgG4 Ab [Mass/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "56228-0",
+      "display": "Codfish IgG4 Ab [Mass/volume] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "48224-0",
+        "display": "Codfish triggered leukotriene release [Mass/volume] by Leukocytes",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "48224-0",
+        "display": "Codfish triggered leukotriene release [Mass/volume] by Leukocytes",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "48224-0",
+      "display": "Codfish triggered leukotriene release [Mass/volume] by Leukocytes",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "6082-2",
+        "display": "Codfish IgE Ab [Units/volume] in Serum",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures immunoglobulin E antibodies, which is not the same as fusiform gyrus volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "49099-5",
+        "display": "Codfish IgG Ab [Mass/volume] in Serum",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures immunoglobulin G antibodies, which is not the same as fusiform gyrus volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "6721-5",
+        "display": "Codfish IgG Ab [Units/volume] in Serum",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures immunoglobulin G antibodies, which is not the same as fusiform gyrus volume.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Different biomarker",
+        "Different method"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

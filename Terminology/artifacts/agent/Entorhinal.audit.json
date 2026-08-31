@@ -1,0 +1,169 @@
+{
+  "field": "Entorhinal",
+  "timestamp": "2026-08-17T18:26:36.958664Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "no_mapping",
+  "score": 0.3,
+  "reason": "Low confidence - no good match (score: 0.30)",
+  "search_terms": [
+    "Entorhinal Cortex Volume",
+    "Entorhinal Cortical Atrophy",
+    "Early AD Entorhinal Region",
+    "Entorhinal MRI Volume Measure"
+  ],
+  "expand_results": [
+    {
+      "term": "Entorhinal Cortex Volume",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "8060-6",
+          "display": "Adrenal cortex Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "56670-3",
+          "display": "Adrenal cortex IgG Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "6923-7",
+          "display": "Adrenal cortex Ab [Units/volume] in Serum by Immunofluorescence",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "5044-3",
+          "display": "Adrenal cortex Ab [Units/volume] in Serum by Radioimmunoassay (RIA)",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 4
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "8060-6",
+        "display": "Adrenal cortex Ab [Units/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "8060-6",
+        "display": "Adrenal cortex Ab [Units/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "8060-6",
+      "display": "Adrenal cortex Ab [Units/volume] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "56670-3",
+        "display": "Adrenal cortex IgG Ab [Units/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "56670-3",
+        "display": "Adrenal cortex IgG Ab [Units/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "56670-3",
+      "display": "Adrenal cortex IgG Ab [Units/volume] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "6923-7",
+        "display": "Adrenal cortex Ab [Units/volume] in Serum by Immunofluorescence",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "6923-7",
+        "display": "Adrenal cortex Ab [Units/volume] in Serum by Immunofluorescence",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "6923-7",
+      "display": "Adrenal cortex Ab [Units/volume] in Serum by Immunofluorescence",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "5044-3",
+        "display": "Adrenal cortex Ab [Units/volume] in Serum by Radioimmunoassay (RIA)",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "5044-3",
+        "display": "Adrenal cortex Ab [Units/volume] in Serum by Radioimmunoassay (RIA)",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "5044-3",
+      "display": "Adrenal cortex Ab [Units/volume] in Serum by Radioimmunoassay (RIA)",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "8060-6",
+        "display": "Adrenal cortex Ab [Units/volume] in Serum",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures adrenal cortex antibodies, which is not the same as entorhinal cortical volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "56670-3",
+        "display": "Adrenal cortex IgG Ab [Units/volume] in Serum",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures adrenal cortex IgG antibodies, which is not the same as entorhinal cortical volume.",
+        "perfect_fit": false
+      },
+      {
+        "code": "6923-7",
+        "display": "Adrenal cortex Ab [Units/volume] in Serum by Immunofluorescence",
+        "score": 0.3,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures adrenal cortex antibodies using immunofluorescence, which is not the same as entorhinal cortical volume.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Different biomarker",
+        "Different method"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

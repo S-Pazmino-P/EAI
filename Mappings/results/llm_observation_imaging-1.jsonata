@@ -1,0 +1,40 @@
+[
+  ($.Ventricles != null and $string($.Ventricles) != "") ? [{
+    "resourceType": "Observation",
+    "identifier": [{ "system": "http://adni.example.org/fhir/identifier/observation", "value": $string($.PTID) & "-" & $.VISCODE & "-Ventricles" }],
+    "code": { "coding": [{"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "Brain-Volume-Ventricles"}], "text": "Ventricles" },
+    "valueQuantity": { "value": $number($.Ventricles) },
+    "subject": { "identifier": { "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": { "text": "PTID" }, "value": $string($.PTID) } },
+    "encounter": { "identifier": { "system": "http://adni.example.org/fhir/identifier/encounter", "value": $string($.PTID) & "-" & $.VISCODE } },
+    "effectiveDateTime": $.EXAMDATE,
+    "method": ($.FSVERSION != null ? { "text": $.FSVERSION } : null),
+    "extension": ($.FLDSTRENG != null ? [{ "url": "http://adni.example.org/fhir/CodeSystem/adni-terms#FLDSTRENG", "valueString": $.FLDSTRENG }] : []),
+    "derivedFrom": ($.IMAGEUID != null ? [{ "reference": "ImagingStudy/adni-image-" & $string($.IMAGEUID) }] : [])
+  }] : [],
+
+  ($.Hippocampus != null and $string($.Hippocampus) != "") ? [{
+    "resourceType": "Observation",
+    "identifier": [{ "system": "http://adni.example.org/fhir/identifier/observation", "value": $string($.PTID) & "-" & $.VISCODE & "-Hippocampus" }],
+    "code": { "coding": [{"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "Brain-Volume-Hippocampus"}], "text": "Hippocampus" },
+    "valueQuantity": { "value": $number($.Hippocampus) },
+    "subject": { "identifier": { "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": { "text": "PTID" }, "value": $string($.PTID) } },
+    "encounter": { "identifier": { "system": "http://adni.example.org/fhir/identifier/encounter", "value": $string($.PTID) & "-" & $.VISCODE } },
+    "effectiveDateTime": $.EXAMDATE,
+    "method": ($.FSVERSION != null ? { "text": $.FSVERSION } : null),
+    "extension": ($.FLDSTRENG != null ? [{ "url": "http://adni.example.org/fhir/CodeSystem/adni-terms#FLDSTRENG", "valueString": $.FLDSTRENG }] : []),
+    "derivedFrom": ($.IMAGEUID != null ? [{ "reference": "ImagingStudy/adni-image-" & $string($.IMAGEUID) }] : [])
+  }] : [],
+
+  ($.WholeBrain != null and $string($.WholeBrain) != "") ? [{
+    "resourceType": "Observation",
+    "identifier": [{ "system": "http://adni.example.org/fhir/identifier/observation", "value": $string($.PTID) & "-" & $.VISCODE & "-WholeBrain" }],
+    "code": { "coding": [{"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "Brain-Volume-WholeBrain"}], "text": "WholeBrain" },
+    "valueQuantity": { "value": $number($.WholeBrain) },
+    "subject": { "identifier": { "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": { "text": "PTID" }, "value": $string($.PTID) } },
+    "encounter": { "identifier": { "system": "http://adni.example.org/fhir/identifier/encounter", "value": $string($.PTID) & "-" & $.VISCODE } },
+    "effectiveDateTime": $.EXAMDATE,
+    "method": ($.FSVERSION != null ? { "text": $.FSVERSION } : null),
+    "extension": ($.FLDSTRENG != null ? [{ "url": "http://adni.example.org/fhir/CodeSystem/adni-terms#FLDSTRENG", "valueString": $.FLDSTRENG }] : []),
+    "derivedFrom": ($.IMAGEUID != null ? [{ "reference": "ImagingStudy/adni-image-" & $string($.IMAGEUID) }] : [])
+  }] : []
+]

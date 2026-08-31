@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "EAI: ADNI to FHIR via LLM-Powered ETL"
+abstract: >-
+  An Extract, AI-Process, Integrate (EAI) pipeline that transforms the ADNI
+  dataset into HL7 FHIR R4 resources using a locally-deployed Llama 3.1 (8B)
+  model. Three stages: terminology mapping (LOINC/SNOMED via OntoServer),
+  agentic JSONata generation (ReAct loop), and deterministic full-dataset
+  transform.
+keywords:
+  - FHIR
+  - ADNI
+  - LLM
+  - ETL
+  - JSONata
+  - Llama 3.1
+  - Ontoserver
+  - precision medicine
+  - Alzheimer's disease
+license: MIT
+version: 1.0.0
+date-released: 2026-08-31
+repository-code: "https://github.com/S-Pazmino-P/EAI"
+authors:
+  - family-names: Cheng
+    given-names: "Ka Yung"
+    email: mail@kayungcheng.de
+    affiliation: "Jesus College, University of Oxford, Oxford, United Kingdom"
+  - family-names: Pazmino
+    given-names: Santiago
+    affiliation: "Fraunhofer Institute for Software and Systems Engineering ISST, Dortmund, Germany"

@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ecogspmem",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:24:29.398431Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "EcogSPMem",
+          "target": [
+            {
+              "code": "89297-6",
+              "display": "Memory panel [ECog.Partner]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

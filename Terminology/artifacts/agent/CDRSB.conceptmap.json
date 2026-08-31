@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-cdrsb",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:20:10.778272Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "CDRSB",
+          "target": [
+            {
+              "code": "72088-8",
+              "display": "Clinical Dementia Rating scale [CDR]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

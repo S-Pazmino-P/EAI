@@ -1,0 +1,219 @@
+{
+  "field": "TRABSCOR",
+  "timestamp": "2026-08-17T18:22:20.363519Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "human_review",
+  "score": 0.6,
+  "reason": "Medium confidence - requires review (score: 0.60)",
+  "search_terms": [
+    "TMT Part B Time",
+    "Trail Making Test B Duration",
+    "Executive Function Assessment Time",
+    "Mental Flexibility Test Completion Time"
+  ],
+  "expand_results": [
+    {
+      "term": "TMT Part B Time",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LA17992-1",
+          "display": "Part-time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA17958-2",
+          "display": "Employed part time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32045-9",
+          "display": "Part time student",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14206-9",
+          "display": "Part-time (Seasonal)",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32017-8",
+          "display": "Working part time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP120715-0",
+          "display": "Body part",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "57715-5",
+          "display": "Birth time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP97565-3",
+          "display": "Birth time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "64103-5",
+          "display": "Baseline time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "11067-6",
+          "display": "Bleeding time",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 1322
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "LA17992-1",
+        "display": "Part-time",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA17992-1",
+        "display": "Part-time",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA17992-1",
+      "display": "Part-time",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA17958-2",
+        "display": "Employed part time",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA17958-2",
+        "display": "Employed part time",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA17958-2",
+      "display": "Employed part time",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA32045-9",
+        "display": "Part time student",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA32045-9",
+        "display": "Part time student",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA32045-9",
+      "display": "Part time student",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA14206-9",
+        "display": "Part-time (Seasonal)",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA14206-9",
+        "display": "Part-time (Seasonal)",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA14206-9",
+      "display": "Part-time (Seasonal)",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA32017-8",
+        "display": "Working part time",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA32017-8",
+        "display": "Working part time",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA32017-8",
+      "display": "Working part time",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "LA17992-1",
+        "display": "Part-time",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures time, but the method is not compatible with ADNI's Trail Making Test Part B Time.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LA17958-2",
+        "display": "Employed part time",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code is too specific and does not match the ADNI field's focus on executive function and mental flexibility.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LA32045-9",
+        "display": "Part time student",
+        "score": 0.2,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "The LOINC code is unrelated to the ADNI field's focus on executive function and mental flexibility.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "NONE",
+      "match_details": [
+        "Method compatibility issue",
+        "Specificity issue"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

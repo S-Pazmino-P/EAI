@@ -1,0 +1,47 @@
+(
+  $dxMap := {
+    "CN":       { "code": "449888003", "display": "Normal cognition" },
+    "AD":       { "code": "26929004",  "display": "Alzheimer's disease" },
+    "EMCI":     { "code": "386805003", "display": "Mild neurocognitive disorder" },
+    "LMCI":     { "code": "386805003", "display": "Mild neurocognitive disorder" },
+    "SMC":      { "code": "27350009",  "display": "Subjective memory complaint" },
+    "MCI":      { "code": "386805003", "display": "Mild neurocognitive disorder" },
+    "Dementia": { "code": "26929004",  "display": "Alzheimer's disease" }
+  };
+  $.DX != null and $.DX != "" ? [
+    {
+      "resourceType": "Condition",
+      "identifier": ["adni-condition-" & $.PTID & "-" & $.VISCODE],
+      "clinicalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": $lookup($dxMap, $.DX).code,
+            "display": $lookup($dxMap, $.DX).display
+          }
+        ],
+        "text": $.DX
+      },
+      "subject": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/CodeSystem/adni-terms",
+          "type": {
+           "text": "PTID"
+          },        
+          "value": $.PTID
+        }
+      },
+      "encounter": {
+        "identifier": {
+          "system": "http://adni.example.org/fhir/identifier/encounter",
+          "value": $.PTID & "-" & $.VISCODE
+        }
+      },
+      "recordedDate": $substring($.EXAMDATE, 0, 10)
+    }
+  ] : []
+)

@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ldeltotal",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:21:55.574837Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "LDELTOTAL",
+          "target": [
+            {
+              "code": "54618-4",
+              "display": "Memory/recall ability [MDSv3]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

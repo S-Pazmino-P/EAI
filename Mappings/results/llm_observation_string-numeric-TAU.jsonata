@@ -1,0 +1,11 @@
+[
+  ($.TAU != null and $string($.TAU) != "") ? [{
+    "resourceType": "Observation",
+    "identifier": [{ "system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-TAU" }],
+    "code": { "coding": [{"system": "http://loinc.org", "code": "79059-2"}], "text": "TAU" },
+    "valueQuantity": { "value": $number($replace($string($.TAU), /^(<=|>=|<|>)\s*/, "")) },
+    "subject": { "identifier": { "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID } },
+    "encounter": { "identifier": { "system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE } },
+    "effectiveDateTime": $.EXAMDATE
+  }] : []
+]

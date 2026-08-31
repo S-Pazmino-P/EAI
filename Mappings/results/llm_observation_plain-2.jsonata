@@ -1,0 +1,73 @@
+[
+  ($.MMSE != null and $string($.MMSE) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-MMSE"}],
+      "code": {"coding": [{"system": "http://loinc.org", "code": "72107-6"}], "text": "MMSE"},
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID}},
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE }},
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.MMSE)}
+    }
+  ] : [],
+  
+  ($.MOCA != null and $string($.MOCA) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-MOCA"}],
+      "code": {"coding": [{"system": "http://loinc.org", "code": "72133-2"}], "text": "MOCA"},
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID}},
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE }},
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.MOCA)}
+    }
+  ] : [],
+  
+  ($.FAQ != null and $string($.FAQ) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-FAQ"}],
+      "code": {"coding": [{"system": "http://loinc.org", "code": "72198-2"}], "text": "FAQ"},
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID}},
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE }},
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.FAQ)}
+    }
+  ] : [],
+  
+  ($.ADAS13 != null and $string($.ADAS13) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-ADAS13"}],
+      "code": {"coding": [{"system": "http://snomed.info/sct", "code": "714360001"}], "text": "ADAS13"},
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID}},
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE }},
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.ADAS13)}
+    }
+  ] : [],
+  
+  ($.ADASQ4 != null and $string($.ADASQ4) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-ADASQ4"}],
+      "code": {"coding": [{"system": "http://snomed.info/sct", "code": "714360001"}], "text": "ADASQ4"},
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID}},
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE }},
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.ADASQ4)}
+    }
+  ] : [],
+  
+  ($.RAVLT_immediate != null and $string($.RAVLT_immediate) != "") ? [
+    {
+      "resourceType": "Observation",
+      "identifier": [{"system": "http://adni.example.org/fhir/identifier/observation", "value": $.PTID & "-" & $.VISCODE & "-RAVLT_immediate"}],
+      "code": {"coding": [{"system": "http://snomed.info/sct", "code": "311478003"}], "text": "RAVLT_immediate"},
+      "subject": {"identifier": {"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": {"text": "PTID"}, "value": $.PTID}},
+      "encounter": {"identifier": {"system": "http://adni.example.org/fhir/identifier/encounter", "value": $.PTID & "-" & $.VISCODE }},
+      "effectiveDateTime": $.EXAMDATE,
+      "valueQuantity": {"value": $number($.RAVLT_immediate)}
+    }
+  ] : []
+]

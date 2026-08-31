@@ -1,0 +1,219 @@
+{
+  "field": "mPACCtrailsB",
+  "timestamp": "2026-08-17T18:27:40.419476Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "no_mapping",
+  "score": 0.4,
+  "reason": "Low confidence - no good match (score: 0.40)",
+  "search_terms": [
+    "mPACC Trails B",
+    "Preclinical AD Cognitive Composite Score",
+    "Trail Making B Test Result",
+    "Modified Preclinical Alzheimer's Cog Composite"
+  ],
+  "expand_results": [
+    {
+      "term": "mPACC Trails B",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LA28979-5",
+          "display": "Balance training",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA18181-0",
+          "display": "Travel-car,bus,train",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA28964-7",
+          "display": "ADL training: Bathing",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA28983-7",
+          "display": "Balance training: Perceptual training",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA28986-0",
+          "display": "Balance training: Vestibular training",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA16493-1",
+          "display": "Traveling in a bus, train, or car",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA29035-5",
+          "display": "Functional training programs: Back schools",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "94206-0",
+          "display": "MMACHC gene full mutation analysis in Blood or Tissue by Sequencing",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "68362-3",
+          "display": "Date self-dialysis training began",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LP135360-8",
+          "display": "Date self-dialysis training began",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 51
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "LA28979-5",
+        "display": "Balance training",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA28979-5",
+        "display": "Balance training",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA28979-5",
+      "display": "Balance training",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA18181-0",
+        "display": "Travel-car,bus,train",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA18181-0",
+        "display": "Travel-car,bus,train",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA18181-0",
+      "display": "Travel-car,bus,train",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA28964-7",
+        "display": "ADL training: Bathing",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA28964-7",
+        "display": "ADL training: Bathing",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA28964-7",
+      "display": "ADL training: Bathing",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA28983-7",
+        "display": "Balance training: Perceptual training",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA28983-7",
+        "display": "Balance training: Perceptual training",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA28983-7",
+      "display": "Balance training: Perceptual training",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA28986-0",
+        "display": "Balance training: Vestibular training",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA28986-0",
+        "display": "Balance training: Vestibular training",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA28986-0",
+      "display": "Balance training: Vestibular training",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "LA28979-5",
+        "display": "Balance training",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures balance training, which is not directly related to the ADNI field's preclinical AD cognitive composite score using Trail Making B.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LA18181-0",
+        "display": "Travel-car,bus,train",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures travel skills, which is not directly related to the ADNI field's preclinical AD cognitive composite score using Trail Making B.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LA28964-7",
+        "display": "ADL training: Bathing",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures ADL training for bathing, which is not directly related to the ADNI field's preclinical AD cognitive composite score using Trail Making B.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "LOW",
+      "match_details": [
+        "Semantic match: LOW",
+        "Method compatibility: FALSE"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

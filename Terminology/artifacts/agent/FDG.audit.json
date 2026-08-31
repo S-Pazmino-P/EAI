@@ -1,0 +1,219 @@
+{
+  "field": "FDG",
+  "timestamp": "2026-08-17T18:18:50.413592Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "no_mapping",
+  "score": 0.5,
+  "reason": "Low confidence - no good match (score: 0.50)",
+  "search_terms": [
+    "FDG PET SUV",
+    "Fluorodeoxyglucose Uptake Ratio",
+    "Brain Glucose Metabolism FDG",
+    "Cerebral Glucose Utilization PET"
+  ],
+  "expand_results": [
+    {
+      "term": "FDG PET SUV",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "81554-8",
+          "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "89712-4",
+          "display": "PET+CT Guidance for limited for localization of tumor of Unspecified body region-- W 18F-FDG IV and W contrast IV",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "87905-6",
+          "display": "PET+CT Guidance for localization of tumor of Head and Neck-- W 18F-FDG IV",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "87915-5",
+          "display": "PET+CT Guidance for localization of tumor of Skull vertex to mid-thigh-- W 18F-FDG IV and W contrast IV",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "81553-0",
+          "display": "PET+CT Guidance limited for localization of tumor of Unspecified body region-- W 18F-FDG IV",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "81555-5",
+          "display": "PET+CT Guidance for localization of tumor of Whole body-- W 18F-FDG IV",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "82805-3",
+          "display": "PET+CT Guidance for localization of tumor of Whole body-- W 18F-FDG IV and WO contrast",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "82806-1",
+          "display": "PET+CT Guidance for localization of tumor of Whole body-- W 18F-FDG IV and W contrast IV",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "82808-7",
+          "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV and WO contrast",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "82807-9",
+          "display": "PET+CT Guidance for localization of tumor of Skull vertex to mid-thigh-- W 18F-FDG IV and WO contrast",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 11
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "81554-8",
+        "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "81554-8",
+        "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP406532-4"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "81554-8",
+      "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "89712-4",
+        "display": "PET+CT Guidance for limited for localization of tumor of Unspecified body region-- W 18F-FDG IV and W contrast IV",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89712-4",
+        "display": "PET+CT Guidance for limited for localization of tumor of Unspecified body region-- W 18F-FDG IV and W contrast IV",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP406548-0"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "89712-4",
+      "display": "PET+CT Guidance for limited for localization of tumor of Unspecified body region-- W 18F-FDG IV and W contrast IV",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "87905-6",
+        "display": "PET+CT Guidance for localization of tumor of Head and Neck-- W 18F-FDG IV",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "87905-6",
+        "display": "PET+CT Guidance for localization of tumor of Head and Neck-- W 18F-FDG IV",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP404952-6"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "87905-6",
+      "display": "PET+CT Guidance for localization of tumor of Head and Neck-- W 18F-FDG IV",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "87915-5",
+        "display": "PET+CT Guidance for localization of tumor of Skull vertex to mid-thigh-- W 18F-FDG IV and W contrast IV",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "87915-5",
+        "display": "PET+CT Guidance for localization of tumor of Skull vertex to mid-thigh-- W 18F-FDG IV and W contrast IV",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP406534-0"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "87915-5",
+      "display": "PET+CT Guidance for localization of tumor of Skull vertex to mid-thigh-- W 18F-FDG IV and W contrast IV",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "81553-0",
+        "display": "PET+CT Guidance limited for localization of tumor of Unspecified body region-- W 18F-FDG IV",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "81553-0",
+        "display": "PET+CT Guidance limited for localization of tumor of Unspecified body region-- W 18F-FDG IV",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP406548-0"
+        }
+      },
+      "score": 0.7999999999999999,
+      "code": "81553-0",
+      "display": "PET+CT Guidance limited for localization of tumor of Unspecified body region-- W 18F-FDG IV",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "81554-8",
+        "display": "PET+CT Guidance for localization of tumor of Skull base to mid-thigh-- W 18F-FDG IV",
+        "score": 0.4,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures PET+CT guidance, which is not the same as FDG-PET for brain glucose metabolism.",
+        "perfect_fit": false
+      },
+      {
+        "code": "89712-4",
+        "display": "PET+CT Guidance for limited for localization of tumor of Unspecified body region-- W 18F-FDG IV and W contrast IV",
+        "score": 0.3,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures PET+CT guidance, which is not the same as FDG-PET for brain glucose metabolism.",
+        "perfect_fit": false
+      },
+      {
+        "code": "87905-6",
+        "display": "PET+CT Guidance for localization of tumor of Head and Neck-- W 18F-FDG IV",
+        "score": 0.5,
+        "semantic_match": "LOW",
+        "method_compatible": false,
+        "rationale": "The LOINC code measures PET+CT guidance, which is not the same as FDG-PET for brain glucose metabolism.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "NONE",
+      "match_details": [
+        "Method compatibility issue",
+        "Semantic match issue"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

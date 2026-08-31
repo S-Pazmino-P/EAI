@@ -1,0 +1,219 @@
+{
+  "field": "MidTemp",
+  "timestamp": "2026-08-17T18:27:01.799728Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "human_review",
+  "score": 0.6,
+  "reason": "Medium confidence - requires review (score: 0.60)",
+  "search_terms": [
+    "Middle Temporal Gyrus Volume",
+    "MTG Volume UCSF",
+    "Temporal Lobe MRI Volume",
+    "Middle Temporal Gyrus Measure"
+  ],
+  "expand_results": [
+    {
+      "term": "Middle Temporal Gyrus Volume",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "8299-0",
+          "display": "Volume Estimated",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "8300-6",
+          "display": "Volume estimated by Immersion method",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "6082-2",
+          "display": "Codfish IgE Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "49099-5",
+          "display": "Codfish IgG Ab [Mass/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "6721-5",
+          "display": "Codfish IgG Ab [Units/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "56228-0",
+          "display": "Codfish IgG4 Ab [Mass/volume] in Serum",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "75988-6",
+          "display": "Left ventricular End diastolic volume",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "75989-4",
+          "display": "Left ventricular End systolic volume",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "20562-5",
+          "display": "Left ventricular Stroke volume",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "10586-6",
+          "display": "Deprecated Volume of Semen",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 675
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "8299-0",
+        "display": "Volume Estimated",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "8299-0",
+        "display": "Volume Estimated",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "8299-0",
+      "display": "Volume Estimated",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "8300-6",
+        "display": "Volume estimated by Immersion method",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "8300-6",
+        "display": "Volume estimated by Immersion method",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248771-0"
+        }
+      },
+      "score": 0.7,
+      "code": "8300-6",
+      "display": "Volume estimated by Immersion method",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "6082-2",
+        "display": "Codfish IgE Ab [Units/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "6082-2",
+        "display": "Codfish IgE Ab [Units/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "6082-2",
+      "display": "Codfish IgE Ab [Units/volume] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "49099-5",
+        "display": "Codfish IgG Ab [Mass/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "49099-5",
+        "display": "Codfish IgG Ab [Mass/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "49099-5",
+      "display": "Codfish IgG Ab [Mass/volume] in Serum",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "6721-5",
+        "display": "Codfish IgG Ab [Units/volume] in Serum",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "6721-5",
+        "display": "Codfish IgG Ab [Units/volume] in Serum",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248770-2"
+        }
+      },
+      "score": 0.7,
+      "code": "6721-5",
+      "display": "Codfish IgG Ab [Units/volume] in Serum",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "8299-0",
+        "display": "Volume Estimated",
+        "score": 0.6,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures volume, but not specific to middle temporal gyrus.",
+        "perfect_fit": false
+      },
+      {
+        "code": "8300-6",
+        "display": "Volume estimated by Immersion method",
+        "score": 0.5,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures volume, but immersion method is not specified in ADNI field.",
+        "perfect_fit": false
+      },
+      {
+        "code": "6082-2",
+        "display": "Codfish IgE Ab [Units/volume] in Serum",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "Measures Codfish IgE Ab, which is not related to middle temporal gyrus volume.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "NONE",
+      "match_details": [
+        "Different biomarker",
+        "Different method"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

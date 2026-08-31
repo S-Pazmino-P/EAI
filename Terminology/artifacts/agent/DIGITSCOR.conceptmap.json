@@ -1,0 +1,21 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-digitscor",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:22:07.744154Z"
+  },
+  "status": "pending",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "DIGITSCOR",
+          "target": []
+        }
+      ]
+    }
+  ]
+}

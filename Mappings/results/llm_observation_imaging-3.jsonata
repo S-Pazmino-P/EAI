@@ -1,0 +1,14 @@
+[
+  ($.ICV != null and $string($.ICV) != "") ? [{
+    "resourceType": "Observation",
+    "identifier": [{ "system": "http://adni.example.org/fhir/identifier/observation", "value": $string($.PTID) & "-" & $.VISCODE & "-ICV" }],
+    "code": { "coding": [{"system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "code": "ICV"}], "text": "ICV" },
+    "valueQuantity": { "value": $number($.ICV) },
+    "subject": { "identifier": { "system": "http://adni.example.org/fhir/CodeSystem/adni-terms", "type": { "text": "PTID" }, "value": $string($.PTID) } },
+    "encounter": { "identifier": { "system": "http://adni.example.org/fhir/identifier/encounter", "value": $string($.PTID) & "-" & $.VISCODE } },
+    "effectiveDateTime": $.EXAMDATE,
+    "method": ($.FSVERSION != null ? { "text": $.FSVERSION } : null),
+    "extension": ($.FLDSTRENG != null ? [{ "url": "http://adni.example.org/fhir/CodeSystem/adni-terms#FLDSTRENG", "valueString": $.FLDSTRENG }] : []),
+    "derivedFrom": ($.IMAGEUID != null ? [{ "reference": "ImagingStudy/adni-image-" & $string($.IMAGEUID) }] : [])
+  }] : []
+]

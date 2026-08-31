@@ -1,0 +1,204 @@
+{
+  "field": "EcogPtOrgan",
+  "timestamp": "2026-08-17T18:23:50.098134Z",
+  "semantic_group": "assessment-instrument",
+  "decision": "mapped",
+  "score": 0.85,
+  "reason": "High confidence match (score: 0.85)",
+  "search_terms": [
+    "Organizational Abilities",
+    "Cognitive Organization Self-Rating",
+    "PIB PET Organizational Tasks",
+    "Amyloid SUVr Cognitive Function"
+  ],
+  "expand_results": [
+    {
+      "term": "Organizational Abilities",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Cognitive Organization Self-Rating",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "LP411650-7",
+          "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "93485-1",
+          "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent [C-SSRS]",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6117-1",
+          "display": "a) Able to indep plan and prep all lt meals for self or reheat delivered meals OR b) Physically/cognitively/mentally able to prepare lt meals.",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA12299-6",
+          "display": "Able to independently plan and prepare all light meals for self or reheat delivered meals; or Is physically, cognitively, and mentally able to prepare light meals on a regular basis but has not routinely performed light meal preparation in the past.",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 4
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "89290-1",
+        "display": "Executive functioning: organization panel [ECog]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "89290-1",
+        "display": "Executive functioning: organization panel [ECog]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.85,
+      "code": "89290-1",
+      "display": "Executive functioning: organization panel [ECog]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "93485-1",
+        "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent [C-SSRS]",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "93485-1",
+        "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent [C-SSRS]",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP248772-8"
+        }
+      },
+      "score": 0.7,
+      "code": "93485-1",
+      "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent [C-SSRS]",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA6117-1",
+        "display": "a) Able to indep plan and prep all lt meals for self or reheat delivered meals OR b) Physically/cognitively/mentally able to prepare lt meals.",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA6117-1",
+        "display": "a) Able to indep plan and prep all lt meals for self or reheat delivered meals OR b) Physically/cognitively/mentally able to prepare lt meals.",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA6117-1",
+      "display": "a) Able to indep plan and prep all lt meals for self or reheat delivered meals OR b) Physically/cognitively/mentally able to prepare lt meals.",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LA12299-6",
+        "display": "Able to independently plan and prepare all light meals for self or reheat delivered meals; or Is physically, cognitively, and mentally able to prepare light meals on a regular basis but has not routinely performed light meal preparation in the past.",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LA12299-6",
+        "display": "Able to independently plan and prepare all light meals for self or reheat delivered meals; or Is physically, cognitively, and mentally able to prepare light meals on a regular basis but has not routinely performed light meal preparation in the past.",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LA"
+        }
+      },
+      "score": 0.7,
+      "code": "LA12299-6",
+      "display": "Able to independently plan and prepare all light meals for self or reheat delivered meals; or Is physically, cognitively, and mentally able to prepare light meals on a regular basis but has not routinely performed light meal preparation in the past.",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "LP411650-7",
+        "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "LP411650-7",
+        "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP"
+        }
+      },
+      "score": 0.5,
+      "code": "LP411650-7",
+      "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "89290-1",
+        "display": "Executive functioning: organization panel [ECog]",
+        "score": 0.85,
+        "semantic_match": "MEDIUM",
+        "method_compatible": true,
+        "rationale": "Measures organizational abilities, but not exactly the same as self-perceived organizational abilities.",
+        "perfect_fit": false
+      },
+      {
+        "code": "93485-1",
+        "display": "Columbia - suicide severity rating scale - very young child or cognitively impaired - lifetime recent [C-SSRS]",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "Measures suicide severity, not organizational abilities.",
+        "perfect_fit": false
+      },
+      {
+        "code": "LA6117-1",
+        "display": "a) Able to indep plan and prep all lt meals for self or reheat delivered meals OR b) Physically/cognitively/mentally able to prepare lt meals.",
+        "score": 0.6,
+        "semantic_match": "LOW",
+        "method_compatible": true,
+        "rationale": "Measures meal preparation, not exactly the same as organizational abilities.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "NONE",
+      "match_details": [
+        "Semantic match: NONE",
+        "Method compatibility: FALSE"
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": {
+    "loinc_code": null,
+    "semantic_equivalence": "NONE",
+    "match_details": [
+      "Semantic match: NONE",
+      "Method compatibility: FALSE"
+    ],
+    "confidence": "LOW",
+    "recommendation": "REJECTED"
+  }
+}

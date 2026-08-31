@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-ecogsptotal",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:25:45.603245Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "EcogSPTotal",
+          "target": [
+            {
+              "code": "89090-5",
+              "display": "Everyday Cognition - Study Partner Report Form [ECog.Partner]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

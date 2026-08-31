@@ -1,0 +1,237 @@
+{
+  "field": "ICV",
+  "timestamp": "2026-08-17T18:27:15.406180Z",
+  "semantic_group": "quantitative-observation",
+  "decision": "no_mapping",
+  "score": 0.0,
+  "reason": "Low confidence - no good match (score: 0.00)",
+  "search_terms": [
+    "Intracranial Volume",
+    "ICV Total",
+    "Total Intracranial Space",
+    "Brain Cranium Volume"
+  ],
+  "expand_results": [
+    {
+      "term": "Intracranial Volume",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "ICV Total",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Total Intracranial Space",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [],
+      "total": 0
+    },
+    {
+      "term": "Brain Cranium Volume",
+      "vs_url": "http://loinc.org/vs",
+      "candidates": [
+        {
+          "code": "42637-9",
+          "display": "Natriuretic peptide B [Mass/volume] in Blood",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "30934-4",
+          "display": "Natriuretic peptide B [Mass/volume] in Serum or Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "47092-2",
+          "display": "Natriuretic peptide B [Moles/volume] in Serum or Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "98106-8",
+          "display": "Brain-derived neurotrophic factor [Mass/volume] in Serum or Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "71425-3",
+          "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Blood by Immunoassay",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "33762-6",
+          "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "33763-4",
+          "display": "Natriuretic peptide.B prohormone N-Terminal [Moles/volume] in Serum or Plasma",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "77621-1",
+          "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Pleural fluid by Immunoassay",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "83107-3",
+          "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma by Immunoassay",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "83108-1",
+          "display": "Natriuretic peptide.B prohormone N-Terminal [Moles/volume] in Serum or Plasma by Immunoassay",
+          "system": "http://loinc.org"
+        }
+      ],
+      "total": 11
+    }
+  ],
+  "top_candidates": [
+    {
+      "candidate": {
+        "code": "42637-9",
+        "display": "Natriuretic peptide B [Mass/volume] in Blood",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "42637-9",
+        "display": "Natriuretic peptide B [Mass/volume] in Blood",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP385934-7"
+        }
+      },
+      "score": 0.7,
+      "code": "42637-9",
+      "display": "Natriuretic peptide B [Mass/volume] in Blood",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "30934-4",
+        "display": "Natriuretic peptide B [Mass/volume] in Serum or Plasma",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "30934-4",
+        "display": "Natriuretic peptide B [Mass/volume] in Serum or Plasma",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP385935-4"
+        }
+      },
+      "score": 0.7,
+      "code": "30934-4",
+      "display": "Natriuretic peptide B [Mass/volume] in Serum or Plasma",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "47092-2",
+        "display": "Natriuretic peptide B [Moles/volume] in Serum or Plasma",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "47092-2",
+        "display": "Natriuretic peptide B [Moles/volume] in Serum or Plasma",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP385935-4"
+        }
+      },
+      "score": 0.7,
+      "code": "47092-2",
+      "display": "Natriuretic peptide B [Moles/volume] in Serum or Plasma",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "98106-8",
+        "display": "Brain-derived neurotrophic factor [Mass/volume] in Serum or Plasma",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "98106-8",
+        "display": "Brain-derived neurotrophic factor [Mass/volume] in Serum or Plasma",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP428632-6"
+        }
+      },
+      "score": 0.7,
+      "code": "98106-8",
+      "display": "Brain-derived neurotrophic factor [Mass/volume] in Serum or Plasma",
+      "system": "http://loinc.org"
+    },
+    {
+      "candidate": {
+        "code": "71425-3",
+        "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Blood by Immunoassay",
+        "system": "http://loinc.org"
+      },
+      "lookup": {
+        "code": "71425-3",
+        "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Blood by Immunoassay",
+        "system": "http://loinc.org",
+        "properties": {
+          "inactive": "False",
+          "parent": "LP385936-2"
+        }
+      },
+      "score": 0.7,
+      "code": "71425-3",
+      "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Blood by Immunoassay",
+      "system": "http://loinc.org"
+    }
+  ],
+  "llm_evaluation": {
+    "evaluations": [
+      {
+        "code": "42637-9",
+        "display": "Natriuretic peptide B [Mass/volume] in Blood",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "ICV is not a natriuretic peptide, and the method (blood) does not match.",
+        "perfect_fit": false
+      },
+      {
+        "code": "30934-4",
+        "display": "Natriuretic peptide B [Mass/volume] in Serum or Plasma",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "ICV is not a natriuretic peptide, and the method (serum/plasma) does not match.",
+        "perfect_fit": false
+      },
+      {
+        "code": "47092-2",
+        "display": "Natriuretic peptide B [Moles/volume] in Serum or Plasma",
+        "score": 0.0,
+        "semantic_match": "NONE",
+        "method_compatible": false,
+        "rationale": "ICV is not a natriuretic peptide, and the method (serum/plasma) does not match.",
+        "perfect_fit": false
+      }
+    ],
+    "recommended_code": null,
+    "perfect_fit_found": false,
+    "report": {
+      "loinc_code": null,
+      "semantic_equivalence": "NONE",
+      "match_details": [
+        "ICV is a volume measurement, not a biomarker.",
+        "Methods do not match."
+      ],
+      "confidence": "LOW",
+      "recommendation": "REJECTED"
+    }
+  },
+  "report": null
+}

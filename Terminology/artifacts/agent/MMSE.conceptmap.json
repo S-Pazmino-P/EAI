@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "adni-mmse",
+  "meta": {
+    "source": "ADNI",
+    "date": "2026-08-17T18:20:59.051408Z"
+  },
+  "status": "final",
+  "group": [
+    {
+      "source": "http://adni.example.org",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "MMSE",
+          "target": [
+            {
+              "code": "72107-6",
+              "display": "Mini-Mental State Examination [MMSE]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
