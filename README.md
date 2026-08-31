@@ -1,5 +1,7 @@
 # EAI — ADNI to FHIR via LLM-Powered ETL
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22215565.svg)](https://doi.org/10.5281/zenodo.22215565)
+
 An Extract, AI-Process, Integrate (EAI) pipeline that transforms the ADNI
 (Alzheimer's Disease Neuroimaging Initiative) dataset into HL7 FHIR R4
 resources using a locally-deployed large language model (Llama 3.1 8B via

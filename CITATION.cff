@@ -18,9 +18,10 @@ keywords:
   - precision medicine
   - Alzheimer's disease
 license: MIT
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-08-31
 repository-code: "https://github.com/S-Pazmino-P/EAI"
+doi: "10.5281/zenodo.22215565"
 authors:
   - family-names: Cheng
     given-names: "Ka Yung"
